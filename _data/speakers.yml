@@ -13,14 +13,36 @@
     - {name: "github", link: "https://github.com/mscottford"}
 -
   id: 2
-  name: "Speaker TBD"
-  surname: ""
-  company: ""
+  name: "Sumana"
+  surname: "Harihareswara"
+  company: "Changeset Consulting"
   title: ""
-  bio: 'Your bio here'
-  thumbnailUrl: MenderCon_2021_Speaker_Placeholder.png
+  bio: ''
+  thumbnailUrl: Sumana_Harihareswara.jpg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com"}
-    - {name: "twitter", link: "https://twitter.com"}
-    - {name: "github", link: "https://github.com"}
+    - {name: "linkedin", link: "http://www.linkedin.com/in/sumanah"}
+    - {name: "twitter", link: "https://twitter.com/brainwane"}
+-
+  id: 3
+  name: "Nicolas"
+  surname: "Carlo"
+  company: "busbud"
+  title: ""
+  bio: ''
+  thumbnailUrl: Nicolas_Carlo.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/%F0%9F%92%A1-nicolas-carlo-095b243b/"}
+    - {name: "twitter", link: "https://twitter.com/nicoespeon"}
+-
+  id: 4
+  name: "Marianne"
+  surname: "Bellotti"
+  company: "Rebellion Defense"
+  title: ""
+  bio: ''
+  thumbnailUrl: Marianne_Bellotti.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/bellmar"}
