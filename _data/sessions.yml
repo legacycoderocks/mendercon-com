@@ -54,16 +54,16 @@
   speakers: []
 -
   id: 011
-  title: "Speaker One"
-  description: "Speaker TBD"
-  speakers: []
+  title: "Starting an Open Source 'Repair Shop'"
+  description: "The heartwarming British reality show 'The Repair Shop' shows us experts restoring and reviving treasured heirlooms. In open source software, we have a similar opportunity -- when the right experts have a chance to work with legacy projects, we can refresh their digital, social, and -- if necessary -- financial and legal infrastructure, so they can thrive. Through my consulting business, I've helped get GNU Autoconf, PyPI, and other open source projects 'unstuck' over the last few years, and I'll share stories of those successes (one of them only took 15 hours of work). And I'll talk about the five major places open source projects get stuck (strategy, team, interfacing, workflow, and money) and how to address each. There's room for a lot of experts to join me in reviving these treasures and getting them shiny again; join me!"
+  speakers: [2]
 -
   id: 012
-  title: "Speaker Two"
-  description: "Speaker TBD"
-  speakers: []
+  title: "7 Techniques to Tame a Legacy Codebase"
+  description: "We spend most of our time changing existing code. Often, there’s no test and the authors are long gone! It feels like a pain because you're always in a hurry, rushing to ship new features and bug fixes before the end of the Sprint. But what if you had a secret weapon? Let me share with you 7 concrete techniques that will help you regain control of any Legacy."
+  speakers: [3]
 -
   id: 013
-  title: "Speaker Three"
-  description: "Speaker TBD"
-  speakers: []
+  title: "Proving It's Broken: Strategies for Modeling Systems"
+  description: "Troubled systems rarely have just one problem. This talk will explore using formal specification and system modeling to reason about a system's current state and constructing a plan to mender it. Using tools like TLA+, Alloy, and Z3 we can discover critical bugs in complex systems and demonstrate their impact without touching the system itself, then use that insight to make a case for substantial improvements."
+  speakers: [4]
