@@ -2,3 +2,4 @@
   group: "General sponsor"
   elements:
     - {name: "Corgibytes", description: "Corgibytes - old code; new tricks", link: "https://corgibytes.com", imageUrl: "corgibytes-logo.png"}
+    - {name: "Simple Thread", description: "UX Design - Software Engineering - DevOps", link: "https://www.simplethread.com", imageUrl: "ST Logo on Black.png"}
