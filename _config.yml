@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 encoding: UTF-8
 
 # Site Settings
-title: "MenderCon 2021"
+title: "MenderCon 2022"
 email: "info@mendercon.com"
 description: "MenderCon is a conference for people who are passionate about modernizing and improving software systems"
 baseurl: ""
@@ -53,15 +53,16 @@ navigationLinks:
  - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/coc/", text: "Code of Conduct"}
  - {permalink: "/testimonials/", text: "Testimonials"}
+ - {permalink: "http://legacycode.rocks", text: "Community"}
  - {permalink: "/faq/", text: "FAQ"}
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "MenderCon 2021"
-eventDate: "May 13, 2021"
+heroTitle: "MenderCon 2022"
+eventDate: "June 8, 2022"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {link: "https://hopin.to/events/mendercon-2021", text: "Get tickets"}
+ - {link: "https://hopin.to/events/mendercon-2022", text: "Get tickets"}
 
 # About Block
 aboutTitle: "About MenderCon"
@@ -115,7 +116,7 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
-twitterHashTag: "MenderCon2021"
+twitterHashTag: "MenderCon2022"
 
 # Partners Block
 organizersTitle: "Organizers"
