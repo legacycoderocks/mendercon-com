@@ -62,7 +62,7 @@ heroTitle: "MenderCon 2022"
 eventDate: "June 8, 2022"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {link: "https://hopin.to/events/mendercon-2022", text: "Get tickets"}
+ - {link: "https://hopin.com/events/mendercon-2022", text: "Get tickets"}
 
 # About Block
 aboutTitle: "About MenderCon"
