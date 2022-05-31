@@ -13,13 +13,36 @@
     - {name: "github", link: "https://github.com/mscottford"}
 -
   id: 2
-  name: "This could be"
-  surname: "You"
-  company: "Your Company"
-  title: ""
+  name: "Steve"
+  surname: "Richey"
+  company: "Corgibytes"
+  title: "Lead Code Whisperer"
   bio: ''
-  thumbnailUrl: MenderCon_2021_Speaker_Placeholder.png
+  thumbnailUrl: SteveRicheyHeadshot.png
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/company/corgibytes-llc"}
-    - {name: "twitter", link: "https://twitter.com/corgibytes"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/thesteverichey/"}
+    - {name: "twitter", link: "https://twitter.com/thesteverichey"}
+-
+  id: 3
+  name: "Oussama"
+  surname: "BADR"
+  company: ""
+  title: ""
+  bio: ''
+  thumbnailUrl: oussama-badr-photo.jpg
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/ousamabadr"}
+-
+  id: 4
+  name: "Chris"
+  surname: "C."
+  company: "Corgibytes"
+  title: "Lead Code Whisperer"
+  bio: ''
+  thumbnailUrl: chrisF.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/chris-cumming/"}
+    - {name: "twitter", link: "https://twitter.com/saturdaymp"}
