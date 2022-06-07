@@ -3,3 +3,4 @@
   elements:
     - {name: "Corgibytes", description: "Corgibytes - old code; new tricks", link: "https://corgibytes.com", imageUrl: "corgibytes-logo.png"}
     - {name: "Deep Roots", description: "Your code is the roots of your business.", link: "https://www.digdeeproots.com", imageUrl: "deep-roots-id.png"}
+    - {name: "Planet Argon", description: "Continuous Development Support for Ruby on Rails Applications", link: "https://www.planetargon.com/", imageUrl: "PARGON_logo.png"}
