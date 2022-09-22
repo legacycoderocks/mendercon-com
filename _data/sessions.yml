@@ -54,16 +54,16 @@
   speakers: []
 -
   id: 011
-  title: "Code is Communication: Understanding the Inherent Value of Legacy Code"
-  description: "All too often, organizations embark on massive rewriting efforts that end up creating security vulnerabilities, missing key business requirements, and going way over estimate. Why does this happen? How could this be avoided? In this talk, I will discuss some high-profile rewrites and the pain that they caused, provide a theory on why organizations choose this approach despite the risk, make the case for the value embedded in existing code, and how to leverage equivalence to break such efforts into smaller and more manageable pieces."
+  title: "TBD"
+  description: "Talk description coming soon!"
   speakers: [2]
 -
   id: 012
-  title: "From Chaos Code to Hexagonal Architecture"
-  description: "The talk will present the techniques to refactor legacy code in order to move to a clean architecture, that separate business logic from technical infrastructure."
+  title: "TBD"
+  description: "Talk description coming soon!"
   speakers: [3]
 -
   id: 013
-  title: "Creating Pleasant Development Environments"
-  description: "How to create development environments you and your team are happy to use."
+  title: "TBD"
+  description: "Talk description coming soon!"
   speakers: [4]
