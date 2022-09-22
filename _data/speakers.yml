@@ -13,36 +13,31 @@
     - {name: "github", link: "https://github.com/mscottford"}
 -
   id: 2
-  name: "Steve"
-  surname: "Richey"
-  company: "Corgibytes"
-  title: "Lead Code Whisperer"
-  bio: ''
-  thumbnailUrl: SteveRicheyHeadshot.png
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/thesteverichey/"}
-    - {name: "twitter", link: "https://twitter.com/thesteverichey"}
--
-  id: 3
-  name: "Oussama"
-  surname: "BADR"
+  name: "This Could Be"
+  surname: "You"
   company: ""
   title: ""
   bio: ''
-  thumbnailUrl: oussama-badr-photo.jpg
+  thumbnailUrl: CB_logo_round.png
   rockstar: true
   social:
-    - {name: "twitter", link: "https://twitter.com/ousamabadr"}
+-
+  id: 3
+  name: "This Could Be"
+  surname: "You"
+  company: ""
+  title: ""
+  bio: ''
+  thumbnailUrl: CB_logo_round.png
+  rockstar: true
+  social:
 -
   id: 4
-  name: "Chris"
-  surname: "C."
-  company: "Corgibytes"
-  title: "Lead Code Whisperer"
+  name: "This Could Be"
+  surname: "You"
+  company: ""
+  title: ""
   bio: ''
-  thumbnailUrl: chrisF.jpg
+  thumbnailUrl: CB_logo_round.png
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/chris-cumming/"}
-    - {name: "twitter", link: "https://twitter.com/saturdaymp"}
