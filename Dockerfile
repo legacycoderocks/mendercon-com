@@ -12,5 +12,5 @@ RUN apt-get update
 RUN apt-get install --assume-yes curl
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash
 RUN apt-get install --assume-yes nodejs
-RUN gem install bundler
+RUN gem install bundler --version 2.1.4
 RUN bundle install
