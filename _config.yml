@@ -56,7 +56,6 @@ navigationLinks:
  - {permalink: "http://legacycode.rocks", text: "Community"}
  - {permalink: "/faq/", text: "FAQ"}
 
-
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "MenderCon 2023"
