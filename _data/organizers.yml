@@ -1,4 +1,4 @@
 -
   group: "Main organizer"
   elements:
-    - {name: "Legacy Code Rocks", description: "Legacy Code Rocks - what do you love about legacy code?", link: "https://legacycode.rocks", imageUrl: "legacy-code-rocks-logo.png"}
+    - {name: "Legacy Code Rocks", description: "Legacy Code Rocks - what do you love about legacy code?", link: "https://legacycode.rocks", imageUrl: "legacy-code-rocks-logo.png", width: "200px"}
