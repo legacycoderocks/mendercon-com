@@ -8,12 +8,6 @@
     <meta name="keywords" content="{{ site.metaKeywords }}">
     <meta name="google-site-verification" content="{{ site.siteVerification }}" />
     <link rel="canonical" href="{{ site.url }}">
-    <!-- Social: Twitter -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="{{ site.twitterAccount }}">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{{ site.description }}">
-    <meta name="twitter:image:src" content="{{ site.socialImageSrcTwitter | prepend: site.baseurl | prepend: site.url }}">
     <!-- Social: Facebook / Open Graph -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:site_name" content="{{ site.title }}" />

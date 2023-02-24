@@ -9,7 +9,7 @@
   rockstar: true
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
-    - {name: "twitter", link: "https://twitter.com/mscottford"}
+    - {name: "mastodon", link: "https://toot.legacycode.rocks/@mscottford"}
     - {name: "github", link: "https://github.com/mscottford"}
 -
   id: 2

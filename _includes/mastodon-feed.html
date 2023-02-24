@@ -1,0 +1,17 @@
+<!-- Begin Mastodon Feed Section -->
+<section id="mastodon-feed" class="mastodon-feed image-section parallax" style="background-image: url({{ site.baseurl }}/img/sections-background/{{ site.tootsFeedImage }});">
+    <div class="overlay solid-overlay"></div>
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <a href="{{site.mastodonServer}}/{{ site.mastodonAccount }}" target="_blank">
+            <svg class="icon" viewBox="0 0 24 24">
+                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-mastodon"></use>
+            </svg>
+            </a>
+            <h3>{{ site.tootsFeedTitle }} <a href="https://toot.legacycode.rocks/tags/MenderCon2023" target="_blank">#{{ site.mastodonHashTag }}</a>
+            </h3>
+            <div id="toots" class="toots"></div>
+        </div>
+    </div>
+</section>
+<!-- End Mastodon Feed Section -->
