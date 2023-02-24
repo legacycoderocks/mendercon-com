@@ -36,9 +36,10 @@ organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
 metaKeywords: "mendercon, menders, unconference, refactoring, development, programming, legacy, code, software, remodeling, technical, debt"
-twitterAccount: "@MenderCon"
+mastodonServer: "https://toot.legacycode.rocks"
+mastodonAccount: "@mendercon"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
-socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcMastodon: "/img/seo/sharing-mastodon.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
@@ -113,10 +114,11 @@ venueSmallImage3: "venue_3.jpg"
 venueTitle: "Kinopalace Cinema"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
-# Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "MenderCon2023"
+# Toots Feed Block
+tootsFeedImage: "mastodon-feed.jpg"
+tootsFeedTitle: "What's Up?"
+mastodonHashTag: "MenderCon2023"
+mastodonFeedUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2023"
 
 # Partners Block
 organizersTitle: "Organizers"
