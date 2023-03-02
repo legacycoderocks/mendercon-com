@@ -1,0 +1,13 @@
+$faq-border: 1px solid #e7e7e7;
+.faq {
+    .faq-item {
+        margin-bottom: 3rem;
+        padding-bottom: 1.5rem;
+        border-bottom: $faq-border;
+    }
+
+    .faq.question {
+        margin-bottom: 1.5rem;
+        line-height: 2.75rem;
+    }
+}
