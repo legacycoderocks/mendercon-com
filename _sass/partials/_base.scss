@@ -19,9 +19,11 @@ $title-font-family: 'VT323', monospace;
 $title-date-font-family: 'WC Mano Negra', sans-serif;
 
 // Fixed Font
-$fixed-font-family: 'Roboto', monospace;
+$fixed-font-family: 'Roboto Mono', monospace;
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
+
+$navigation-font-size: 1.25 * $base-font-size;
 
 // Headings
 $header-font-weight: $light;
