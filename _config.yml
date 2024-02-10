@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 encoding: UTF-8
 
 # Site Settings
-title: "MenderCon 2023"
+title: "MenderCon 2024"
 email: "info@mendercon.com"
 description: "MenderCon is a conference for people who are passionate about modernizing and improving software systems"
 baseurl: ""
@@ -51,8 +51,8 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "MenderCon 2023"
-eventDate: "May 10, 2023"
+heroTitle: "MenderCon 2024"
+eventDate: "May 16, 2024"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
  - {link: "https://www.eventbrite.com/e/mendercon-2023-tickets-559111556717", text: "Get tickets"}
@@ -101,8 +101,8 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Toots Feed Block
 tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
-mastodonHashTag: "MenderCon2023"
-mastodonFeedUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2023"
+mastodonHashTag: "MenderCon2024"
+mastodonFeedUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2024"
 
 # Partners Block
 organizersTitle: "Organizers"
