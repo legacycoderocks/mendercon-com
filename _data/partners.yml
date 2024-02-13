@@ -2,4 +2,4 @@
   group: "General sponsor"
   elements:
     - {name: "Corgibytes", description: "Corgibytes - old code; new tricks", link: "https://corgibytes.com", imageUrl: "corgibytes-logo.png"}
-    - {name: "OmbuLabs", description: "OmbuLabs - Build. Scale. Manage.", link: "https://www.ombulabs.com/", imageUrl: "ombulabs-logo.png"}
+
