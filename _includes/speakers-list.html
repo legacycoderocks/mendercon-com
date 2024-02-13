@@ -2,61 +2,10 @@
 <section id="speakers" class="speakers">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <div class="row text-left appear-animation-trigger">
-                {% for speaker in site.data.speakers %}
-                <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
-                    <div class="lily-effect ribbon-activator">
-                        <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
-                            <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
-                                <div class="overlay solid-overlay"></div>
-                                {% if speaker.ribbon != null %}
-                                <ul class="ribbon-wrapper">
-                                    {% for ribbon in speaker.ribbon %}
-                                    <li class="{{ ribbon["abbr"] | downcase }}">
-                                        <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
-                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                                {% endif %}
-                                {% if site.showSessions %}
-                                <figcaption>
-                                    <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-                                    <p class="position">{{ speaker.company }}</p>
-                                </figcaption>
-                                {% endif %}
-                            </figure>
-                        </div>
-                        <div class="lily-bottom">
-                            <ul class="slider">
-                                {% assign sessionsNumber = 0 %}
-                                {% if site.showSessions %}
-                                    {% for session in site.data.sessions %}
-                                        {% for session_speaker in session.speakers %}
-                                            {% if session_speaker == speaker.id %}
-                                            {% assign sessionsNumber = sessionsNumber | plus: 1 %}
-                                                <li class="title slider-item animated fadeInRight hidden">{{ session.title }}</li>
-                                            {% endif %}
-                                        {% endfor %}
-                                    {% endfor %}
-                                {% else %}
-                                    <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-                                    <p class="position">{{ speaker.company }}</p>
-                                {% endif %}
-                            </ul>
-                            <a href="#" class="slider-next-item {% if sessionsNumber < 2 %}hidden{% endif %}">Next</a>
-                        </div>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
+<!--          When new speakers are selected revert the deletion of the speaker div -->
             <div class="row text-left appear-animation-trigger">
                 <div class="col-xs-12">
-                    <p>MenderCon is back in 2023 for our fourth annual conference!
-                        We will be offering two tracks: An open session
-                        track for anyone to present and a standard event
-                        track with pre-selected speakers. This is a call for papers
-                        for the 2nd track.</p>
+                    <p>MenderCon is back in 2024 for our fifth annual conference!</p>
 
                     <p>You'll fit right in if you:</p>
                     <ul>
@@ -70,8 +19,8 @@
                         code, cloud/Kubernetes, dependency freshness, bug hunting,
                         etc. Whether it's totally trending or you're one of the only
                         people to have heard of it, we want to hear you talk about
-                        it! Entries are due by November 30th, with speaker notifications
-                        being sent out by January 6th. <a href="https://forms.gle/GokqG3GKsJ6DBxqGA">Apply to Speak</a></p>
+                        it! Entries are due by March 15th, with speaker notifications
+                        being sent out by April 6th. <a href="https://forms.gle/GokqG3GKsJ6DBxqGA">Apply to Speak</a></p>
                     <p>And if your talk isn't selected for the standard track,
                         please host a session in the open track. This is a great way
                         to get some practice and feedback from others.</p>
