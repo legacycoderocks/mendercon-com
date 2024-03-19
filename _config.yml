@@ -55,7 +55,7 @@ heroTitle: "MenderCon 2024"
 eventDate: "May 16, 2024"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {link: "https://www.eventbrite.com/e/mendercon-2023-tickets-559111556717", text: "Get tickets"}
+ - {link: "#", text: "Get tickets (soon)"}
 
 # About Block
 aboutTitle: "About MenderCon"
