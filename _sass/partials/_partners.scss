@@ -3,15 +3,14 @@
        margin-top: 30px;
     }
     .list-inline {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
         margin-bottom: 65px;
         li {
-            width: 40%;
             max-width: 500px;
             margin: 13px 7px;
-            @media (max-width: 767px) {
-                width: 90%;
-                max-width: 500px;
-            }
         }
     }
     img {
