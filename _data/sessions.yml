@@ -12,18 +12,11 @@
   speakers: [1]
 -
   id: 003
-  title: "Opening Keynote - How a 40-year-old software company keeps its code fresh and maintainable"
+  title: "Opening Keynote - TBD"
   description: |
-    <p>How many of you have encountered the following problems working with a mature codebase:</p>
-    <ul>
-      <li>You don’t know what it does</li>
-      <li>You don’t know how to build it</li>
-      <li>The deployment process is based on various scripts and word of mouth</li>
-      <li>New developers take weeks to get up to speed</li>
-    </ul>
-    <p>We’ve all been there. Join this talk to discover how a 40-year-old software company keeps its code fresh and maintainable. Through this talk, we will share some helpful techniques and principles that you can immediately start to use to improve time to market, code quality, and developers’ work satisfaction.</p>
+    <p>Will be announced soon.</p>
   subtype: keynote
-  speakers: [2,3]
+  speakers: []
 -
   id: 004
   title: "Pitch Session"
@@ -57,22 +50,18 @@
   subtype: workshop
 -
   id: 011
-  title: "Clean Code - Strategies & Principles"
-  description: "In this presentation, we will talk about how to write clean code - common pitfalls and strategies on how to enforce better code standards for your organization. We will see some sample code bases on how bad code looks like, why developers tend to go that route and the mindset change required to improve the code quality at your organization."
-  speakers: [4]
+  title: "TBD"
+  description: "Will be announced soon."
+  speakers: []
 -
   id: 012
-  title: "Decommissioning a legacy module progressively, using AST traversal"
+  title: "TBD"
   description: |
-    <p>Somewhere, deeply hidden in an old codebase, a module has become so buggy and nasty that no developer dares making any change to it. Actually, developers want to get rid of it, but a big part of the codebase is indirectly relying on it...</p>
+    <p>Will be announced soon.</p>
 
-    <p>Can this story resolve to a happy ending? How to prevent the situation from getting worse, while developers keep adding features in the codebase?</p>
-
-    <p>What if AST (Abstract Syntax Tree) traversal was the key? Let's see how it can help us keep an eye on these dependencies, and prune them one by one, until the module is gone for good! 😌</p>
-
-  speakers: [5]
+  speakers: []
 -
   id: 013
-  title: "Unifying UIs with a Design System"
-  description: "Starting a design system can be daunting, especially on a long running, extensive app or family of applications. How do you start, and then how do you implement the plan? What are the pitfalls of common approaches and off-the-shelf setups? We'll dive into how to start your team on the path of bringing a design system to your organization. We'll identify steps you can take today to move the ball forward, and finally, we'll discuss some of the pitfalls and concerns to watch for as you move towards a unified experience."
-  speakers: [6]
+  title: "TBD"
+  description: "Will be announced soon."
+  speakers: []
