@@ -85,8 +85,8 @@
   id: 8
   name: "Sarah"
   surname: "Dutkiewicz"
-  company: "Cleveland Tech Consulting, LLC"
-  title: "Owner"
+  company: "NimblePros"
+  title: "Senior Trainer"
   bio: "Sarah Dutkiewicz is a native Clevelander, Microsoft MVP in Developer Technologies, published technical author of a PowerShell book, podcast/live coding guest, conference organizer, hackathon lead organizer, speaker, community advocate, software developer, wife, and mom. She speaks on topics such as software architecture, domain-driven design, Azure DevOps for varied audiences, database development, web development, and user experience guidance for developers. With her varied career, Sarah brings developer, DBA, and server admin perspectives to technical and non-technical teams, bridging communication gaps, and helping them grow."
   thumbnailUrl: sarah-dutkiewicz-headshot.png
   rockstar: true
@@ -100,7 +100,7 @@
   surname: "Myers"
   company: "Indeed.com"
   title: "Chaos Engineer | Tech Lead"
-  bio: "Ray Myers is a legacy code expert and skeptical enthusiast for AI. With 16 years in software engineering across multiple industries, he urges a focus on our collective lessons learned to improve our systems and organizations. He publishes guidance on Craft vs Cruft and Mender.AI, with influences from DevOps to Taoism."
+  bio: "Ray Myers is a legacy code expert and skeptical enthusiast for AI. With 16 years in software engineering across multiple industries, he urges a focus on our collective lessons learned to improve our systems and organizations. He publishes guidance on Craft vs Cruft and Mender.AI, with influences from DevOps to Taoism."
   thumbnailUrl: ray-myers-headshot.jpeg
   rockstar: true
   social:
