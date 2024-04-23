@@ -68,3 +68,44 @@
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/johnathayde/"}
     - {name: "twitter", link: "https://www.twitter.com/johnathayde"}
+-
+  id: 7
+  name: "Clare"
+  surname: "Sudbery"
+  company: "Independent"
+  title: "Technical Coach"
+  bio: "Clare Sudbery is an independent technical coach with 24 years of software engineering experience. She specialises in TDD, refactoring, pair programming, continuous integration and other eXtreme Programming (XP) practices. Clare taught the Coding Black Females’ Return to Tech programme and co-ran Made Tech’s academy – coaching inexperienced engineers to learn on the job. She has a passion for helping under-represented groups to flourish in tech. Clare hosted Season One of the acclaimed Making Tech Better podcast and publishes content on Medium (“A Woman in Technology”) and her own site (“In Simple Terms”). She is the author of the Stupidity Manifesto, has written about trunk-based development and refactoring for O’Reilly and for Martin Fowler’s site, and regularly presents workshops and keynotes at events all over the world."
+  thumbnailUrl: clare-sudbery-headshot.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/clare-sudbery-she-her-35939540/"}
+    - {name: "mastodon", link: "https://mastodon.social/@claresudbery"}
+    - {name: "twitter", link: "https://twitter.com/ClareSudbery"}
+-
+  id: 8
+  name: "Sarah"
+  surname: "Dutkiewicz"
+  company: "Cleveland Tech Consulting, LLC"
+  title: "Owner"
+  bio: "Sarah Dutkiewicz is a native Clevelander, Microsoft MVP in Developer Technologies, published technical author of a PowerShell book, podcast/live coding guest, conference organizer, hackathon lead organizer, speaker, community advocate, software developer, wife, and mom. She speaks on topics such as software architecture, domain-driven design, Azure DevOps for varied audiences, database development, web development, and user experience guidance for developers. With her varied career, Sarah brings developer, DBA, and server admin perspectives to technical and non-technical teams, bridging communication gaps, and helping them grow."
+  thumbnailUrl: sarah-dutkiewicz-headshot.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/sadukie/"}
+    - {name: "twitter", link: "https://twitter.com/sadukie"}
+    - {name: "github", link: "https://github.com/sadukie"}
+-
+  id: 9
+  name: "Ray"
+  surname: "Myers"
+  company: "Indeed.com"
+  title: "Chaos Engineer | Tech Lead"
+  bio: "Full-stack software mender. Host of Craft vs Cruft and curator of Mender.AI. Co-founder of StudioUs art school and No Coast Raps."
+  thumbnailUrl: ray-myers-headshot.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/cadrlife/"}
+    - {name: "twitter", link: "https://twitter.com/Lambdapocalypse"}
+    - {name: "github", link: "https://github.com/raymyers"}
+    - {name: "youtube", link: "https://www.youtube.com/@craftvscruft8060"}
+    - {name: "site", link: "https://mender.ai/"}

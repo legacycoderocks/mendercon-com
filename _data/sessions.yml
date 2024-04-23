@@ -50,18 +50,16 @@
   subtype: workshop
 -
   id: 011
-  title: "TBD"
-  description: "Will be announced soon."
-  speakers: []
+  title: "Using Code Coverage and Mutation Testing to add tests to Legacy Code"
+  description: "A technical talk in which Clare will show you how to add tests to legacy code that has none, as a precursor to refactoring."
+  speakers: [7]
 -
   id: 012
-  title: "TBD"
-  description: |
-    <p>Will be announced soon.</p>
-
-  speakers: []
+  title: "From Legacy Monolith to Microservices via Event Storming"
+  description: "It can be overwhelming to take a legacy monolith and split it into microservices, especially if the code seems messy. However, conversations with techies and non-techies over policies and process through an exercise called Event Storming can help ease your migration from a monolith to microservices. In this session, you will learn about Event Storming in the context of breaking down a legacy monolith eCommerce system into microservices."
+  speakers: [8]
 -
   id: 013
-  title: "TBD"
-  description: "Will be announced soon."
-  speakers: []
+  title: "AI Coding: The State of the Mend"
+  description: "A synopsis of our current knowledge about the use of AI in programming."
+  speakers: [9]
