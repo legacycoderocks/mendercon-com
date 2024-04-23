@@ -61,5 +61,5 @@
 -
   id: 013
   title: "AI Coding: The State of the Mend"
-  description: "A synopsis of our current knowledge about the use of AI in programming."
+  description: "The future of software is the future of software maintenance. A year since the release of GPT-4, millions of developers have tried AI language models in their workflow - with wildly varying results! New prototypes sometimes come easily, while updating existing codebases (without breaking them) is much harder. As menders, we must understand how this fits into a sustainable and high-quality process. What really works? What challenges remain? How can we solve them? Let's explore."
   speakers: [9]
