@@ -109,3 +109,19 @@
     - {name: "github", link: "https://github.com/raymyers"}
     - {name: "youtube", link: "https://www.youtube.com/@craftvscruft8060"}
     - {name: "site", link: "https://mender.ai/"}
+-
+  id: 10
+  name: "Andrea"
+  surname: "Goulet"
+  company: "Corgibytes"
+  title: "Co-Founder & Chief Vision Officer"
+  bio: |
+    <p>Andrea Goulet is on a mission to embed empathy into the software industry. She is a sought-after international keynote speaker, experienced software entrepreneur, and award-winning industry leader. Her expertise centers on using empathy and effective communication to modernize legacy and mission-critical software systems.</p>
+    <p>Through her online courses, Andrea has taught over 50,000 students how to level up their empathy and communication skills to create better software. She is the author of the forthcoming book, <em>Empathy-Driven Software Development,</em> and the founder of <a href="https://empathyintech.com/">Empathy in Tech</a> and <a href="https://legacycode.rocks">Legacy Code Rocks</a>, two an online communities where code and compassion connect.</p>
+  thumbnailUrl: andrea-goulet-headshot.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/andreamgoulet/"}
+    - {name: "twitter", link: "https://twitter.com/andreagoulet"}
+    - {name: "mastodon", link: "https://toot.empathyintech.com/@andreagoulet"}
+    - {name: "site", link: "https://empathyintech.com/"}

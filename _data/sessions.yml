@@ -1,65 +1,54 @@
--
-  id: 001
+- id: 001
   title: "Pre-Conference Meet & Greet"
   description: "Take advantage of pre-event networking while we get things set up."
   subtype: workshop
   speakers: []
--
-  id: 002
+- id: 002
   title: "Introduction & Overview"
   description: "Learn what to expect, what the rules are, etc."
   subtype: presentation
   speakers: [1]
--
-  id: 003
-  title: "Opening Keynote - TBD"
+- id: 003
+  title: "Community is Just as Important as Code"
   description: |
-    <p>Will be announced soon.</p>
+    <p>Nearly a decade ago, a small group of menders (and one maker) found community with each other at a conference and Legacy Code Rocks was born. Since then, the Legacy Code Rocks community has grown to over 1000 people, 150 podcast episodes, a weekly meetup and of course, MenderCon.</p>
+    <p>In this talk, Andrea Goulet, the maker who kindled the spark, will take us back to those early days and reflect on how the bedrock of the Legacy Code Rocks community has always been creating a sense of belonging. Compassion and empathy are at the core of being a mender. Mending is caring deeply, seeing potential, and being willing to work through the frustration of making things better one small step at a time. This commitment to helping others feel seen instead of shame is why the Legacy Code Rocks community is so special — and it’s exactly why having the heart of the mender is what our world needs now more than ever.</p>
   subtype: keynote
-  speakers: []
--
-  id: 004
+  speakers: [10]
+- id: 004
   title: "Pitch Session"
   description: "Come up on stage to announce your session title with a short description and the time that the session is scheduled to happen!"
   subtype: workshop
--
-  id: 005
+- id: 005
   title: "Session Round One"
   description: "First time block for sessions pitched during the pitch session."
   subtype: presentation
--
-  id: 006
+- id: 006
   title: "Session Round Two"
   description: "Second time block for sessions pitched during the pitch session."
   subtype: presentation
--
-  id: 007
+- id: 007
   title: "Session Round Three"
   description: "Third time block for sessions pitched during the pitch session."
   subtype: presentation
--
-  id: 008
+- id: 008
   title: "Closing Circle & Retrospective"
   description: "A with the end of any project, let’s come together to talk about what went well, what could’ve been better, and what should change for next time."
   subtype: workshop
   speakers: [1]
--
-  id: 009
+- id: 009
   title: "Post-Event Networking"
   description: "Close out the event with some final networking."
   subtype: workshop
--
-  id: 011
+- id: 011
   title: "Using Code Coverage and Mutation Testing to add tests to Legacy Code"
   description: "A technical talk in which Clare will show you how to add tests to legacy code that has none, as a precursor to refactoring."
   speakers: [7]
--
-  id: 012
+- id: 012
   title: "From Legacy Monolith to Microservices via Event Storming"
   description: "It can be overwhelming to take a legacy monolith and split it into microservices, especially if the code seems messy. However, conversations with techies and non-techies over policies and process through an exercise called Event Storming can help ease your migration from a monolith to microservices. In this session, you will learn about Event Storming in the context of breaking down a legacy monolith eCommerce system into microservices."
   speakers: [8]
--
-  id: 013
+- id: 013
   title: "AI Coding: The State of the Mend"
   description: "The future of software is the future of software maintenance. A year since the release of GPT-4, millions of developers have tried AI language models in their workflow - with wildly varying results! New prototypes sometimes come easily, while updating existing codebases (without breaking them) is much harder. As menders, we must understand how this fits into a sustainable and high-quality process. What really works? What challenges remain? How can we solve them? Let's explore."
   speakers: [9]
