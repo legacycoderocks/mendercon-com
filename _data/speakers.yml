@@ -11,63 +11,63 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
     - {name: "mastodon", link: "https://toot.legacycode.rocks/@mscottford"}
     - {name: "github", link: "https://github.com/mscottford"}
--
-  id: 2
-  name: "Haim"
-  surname: "Cohen"
-  company: "Bloomberg"
-  title: "Software Engineering Team Leader"
-  bio: "Haim Cohen has worked in various software engineering roles at Bloomberg during the past 18 years. Today, he manages an engineering team within a core area of Bloomberg’s market data technology infrastructure that is responsible for a host of systems and APIs that govern the behavior of Bloomberg’s central market data database - the Ticker Plant. Before joining Bloomberg, he worked for Analog Devices and Intel, developing Electronic Design Automation software. He holds a bachelor’s degree in computers and software engineering from the Technion - Israel Institute of Technology, as well as a master’s degree in computer science from Columbia University. He lives in New York City with his wife, two kids, and a cat."
-  thumbnailUrl: haim-cohen-headshot.jpeg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/haimcohen/"}
--
-  id: 3
-  name: "Lainey"
-  surname: "Hall"
-  company: "Bloomberg"
-  title: "Software Engineer"
-  bio: "Lainey Hall has been a member of the Ticker Plant engineering team at Bloomberg for several years. Before joining Bloomberg, she worked as a program coordinator at AI4All, a non-profit that provides high school students from underrepresented groups with early exposure to AI for social good, where she taught programming and AI fundamentals to high school women. She is passionate about advancing the cause of women and people with disabilities in tech both within Bloomberg and the engineering world at large. She is the co-lead of the Bloomberg Women in Technology (BWIT) community’s Recruiting Committee, as well as of B-Able in Tech, a group of Bloomberg employees dedicated to increasing the representation of people with disabilities working in tech roles. She holds a bachelor’s degree in mathematics and computer science from Boston University. She lives in Massachusetts with her fiancé and two cats, Drake and Josh."
-  thumbnailUrl: lainey-hall-headshot.jpeg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/lainey-hall-47178915b/"}
--
-  id: 4
-  name: "Abhishek"
-  surname: "Jain"
-  company: "Cornerstone OnDemand"
-  title: "Lead Software Developer"
-  bio: "Lead Software Dev working at Cornerstone OnDemand, AWS Certified, Author, YouTuber at Coach4Dev, Blogger, Stand Up Comedian"
-  thumbnailUrl: abhishek-jain-headshot.jpeg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/coach4dev/"}
--
-  id: 5
-  name: "Adrien"
-  surname: "Joly"
-  company: "SHODO"
-  title: "Tech Coach"
-  bio: "Based in Paris, France, Adrien Joly (he/him) started as a Software engineer in 2006. Ten years after writing his first Node.js-based full-stack web application (openwhyd.org), he's still maintaining it in production and using it to practice legacy code refactoring techniques. In March, 2020, Adrien joined the consulting agency SHODO to grow with a community of like-minded professionals and practice his skills as a Software Crafter and Tech Coach. You can follow Adrien and/or contact him on Twitter: @adrienjoly."
-  thumbnailUrl: adrien-joly-headshot.jpeg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/adrienjoly/"}
-    - {name: "twitter", link: "https://twitter.com/adrienjoly"}
--
-  id: 6
-  name: "John"
-  surname: "Athayde"
-  company: "Meticulous"
-  title: "Owner"
-  bio: "John Athayde is a design leader and developer who spends a lot of time fighting bad coding practices in the Rails view layer and building cross-functional design teams to ship brands and products. He’s run Meticulous (a design consultancy) since 1997. In previous times he was the Head of Design & UX at PowerFleet, and VP of Design at CargoSense, both Logistics/IoT focused companies, and Lead for UI/UX and Front-end Development–Internal Apps at LivingSocial. He's a nut for well put-together design systems. He lives on a small permaculture farm outside of Charlottesville where he can garden and play in the dirt with his wife and four children. In his free time, he plays guitar and keyboards for the DC-based band, Juniper Lane, and works on his solo music project, Rotoscope. He co-authored “The Rails View” with Bruce Williams. He holds his Masters in Architecture from Catholic University of America."
-  thumbnailUrl: john-athayde-headshot.jpeg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/johnathayde/"}
-    - {name: "twitter", link: "https://www.twitter.com/johnathayde"}
+# -
+#   id: 2
+#   name: "Haim"
+#   surname: "Cohen"
+#   company: "Bloomberg"
+#   title: "Software Engineering Team Leader"
+#   bio: "Haim Cohen has worked in various software engineering roles at Bloomberg during the past 18 years. Today, he manages an engineering team within a core area of Bloomberg’s market data technology infrastructure that is responsible for a host of systems and APIs that govern the behavior of Bloomberg’s central market data database - the Ticker Plant. Before joining Bloomberg, he worked for Analog Devices and Intel, developing Electronic Design Automation software. He holds a bachelor’s degree in computers and software engineering from the Technion - Israel Institute of Technology, as well as a master’s degree in computer science from Columbia University. He lives in New York City with his wife, two kids, and a cat."
+#   thumbnailUrl: haim-cohen-headshot.jpeg
+#   rockstar: true
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/haimcohen/"}
+# -
+#   id: 3
+#   name: "Lainey"
+#   surname: "Hall"
+#   company: "Bloomberg"
+#   title: "Software Engineer"
+#   bio: "Lainey Hall has been a member of the Ticker Plant engineering team at Bloomberg for several years. Before joining Bloomberg, she worked as a program coordinator at AI4All, a non-profit that provides high school students from underrepresented groups with early exposure to AI for social good, where she taught programming and AI fundamentals to high school women. She is passionate about advancing the cause of women and people with disabilities in tech both within Bloomberg and the engineering world at large. She is the co-lead of the Bloomberg Women in Technology (BWIT) community’s Recruiting Committee, as well as of B-Able in Tech, a group of Bloomberg employees dedicated to increasing the representation of people with disabilities working in tech roles. She holds a bachelor’s degree in mathematics and computer science from Boston University. She lives in Massachusetts with her fiancé and two cats, Drake and Josh."
+#   thumbnailUrl: lainey-hall-headshot.jpeg
+#   rockstar: true
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/lainey-hall-47178915b/"}
+# -
+#   id: 4
+#   name: "Abhishek"
+#   surname: "Jain"
+#   company: "Cornerstone OnDemand"
+#   title: "Lead Software Developer"
+#   bio: "Lead Software Dev working at Cornerstone OnDemand, AWS Certified, Author, YouTuber at Coach4Dev, Blogger, Stand Up Comedian"
+#   thumbnailUrl: abhishek-jain-headshot.jpeg
+#   rockstar: true
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/coach4dev/"}
+# -
+#   id: 5
+#   name: "Adrien"
+#   surname: "Joly"
+#   company: "SHODO"
+#   title: "Tech Coach"
+#   bio: "Based in Paris, France, Adrien Joly (he/him) started as a Software engineer in 2006. Ten years after writing his first Node.js-based full-stack web application (openwhyd.org), he's still maintaining it in production and using it to practice legacy code refactoring techniques. In March, 2020, Adrien joined the consulting agency SHODO to grow with a community of like-minded professionals and practice his skills as a Software Crafter and Tech Coach. You can follow Adrien and/or contact him on Twitter: @adrienjoly."
+#   thumbnailUrl: adrien-joly-headshot.jpeg
+#   rockstar: true
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/adrienjoly/"}
+#     - {name: "twitter", link: "https://twitter.com/adrienjoly"}
+# -
+#   id: 6
+#   name: "John"
+#   surname: "Athayde"
+#   company: "Meticulous"
+#   title: "Owner"
+#   bio: "John Athayde is a design leader and developer who spends a lot of time fighting bad coding practices in the Rails view layer and building cross-functional design teams to ship brands and products. He’s run Meticulous (a design consultancy) since 1997. In previous times he was the Head of Design & UX at PowerFleet, and VP of Design at CargoSense, both Logistics/IoT focused companies, and Lead for UI/UX and Front-end Development–Internal Apps at LivingSocial. He's a nut for well put-together design systems. He lives on a small permaculture farm outside of Charlottesville where he can garden and play in the dirt with his wife and four children. In his free time, he plays guitar and keyboards for the DC-based band, Juniper Lane, and works on his solo music project, Rotoscope. He co-authored “The Rails View” with Bruce Williams. He holds his Masters in Architecture from Catholic University of America."
+#   thumbnailUrl: john-athayde-headshot.jpeg
+#   rockstar: true
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/johnathayde/"}
+#     - {name: "twitter", link: "https://www.twitter.com/johnathayde"}
 -
   id: 7
   name: "Clare"
