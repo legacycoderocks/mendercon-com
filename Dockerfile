@@ -1,4 +1,4 @@
-FROM ruby:2.5-stretch
+FROM --platform=linux/amd64 ruby:2.5-stretch
 
 WORKDIR /app
 VOLUME /app
