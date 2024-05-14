@@ -56,22 +56,19 @@
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 50%;
-        padding: 32px 16px;
+        height: 25%;
+        padding: 0px 16px;
         text-transform: uppercase;
+        transition: $base-transition;
+        background-color: rgba(30, 41, 59, 0.6);
         color: #fff;
-        h2, p {
-            @media (max-width: 767px) {
-                transform: translateY(-25px);
-            }
-        }
         h2 {
             font-size: 20px;
             line-height: 1;
             font-weight: $regular;
             transition: $base-transition;
-            transform: translateY(-10px);
             word-spacing: -2px;
+            margin-bottom: 0;
             span {
                 font-weight: $extra-bold;
                 display: block;
@@ -89,10 +86,6 @@
             transition: $base-transition;
             letter-spacing: 1px;
             color: rgba(255, 255, 255, .9);
-            transform: translateY(20px);
-            @media (max-width: 767px) {
-                transform: translateY(-30px);
-            }
         }
     }
     .overlay {
