@@ -11,7 +11,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 encoding: UTF-8
 
 # Site Settings
-title: "MenderCon 2024"
+title: "MenderCon"
 email: "info@mendercon.com"
 description: "MenderCon is a conference for people who are passionate about modernizing and improving software systems"
 baseurl: ""
@@ -20,7 +20,7 @@ permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
-isAcceptingSponsors: false
+isAcceptingSponsors: true
 
 collections:
   faqs:
@@ -36,7 +36,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
 c4pUrl: "https://forms.gle/ve2YcKycdFUxUGZh6"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+c4sponsorsUrl: "/assets/MenderCon_2025_Sponsorship_Prospectus.pdf"
 
 
 # Navigation
@@ -99,8 +99,8 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Toots Feed Block
 tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
-mastodonHashTag: "MenderCon2024"
-mastodonFeedUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2024"
+mastodonHashTag: "MenderCon2025"
+mastodonFeedUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2025"
 
 # Partners Block
 organizersTitle: "Organizers"
