@@ -1,0 +1,13 @@
+<!-- Begin Recorded Presentations Section -->
+<section id="last-year-presentations">
+    <div class="content-wrapper row">
+        {% for video in site.data.last-year-presentations %}
+        <div class="col-md-3 col-md-offest-1">
+            <iframe  src="https://www.youtube.com/embed/{{ video.id }}" allowfullscreen></iframe>
+            <h6>{{ video.title }}</h6>
+            <p>{{ video.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+<!-- End Recorded Presentations Section -->
