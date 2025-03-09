@@ -55,6 +55,7 @@ eventDate: "May 15, 2025"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
  - {link: "https://www.papercall.io/mendercon-2025", text: "Apply to our CFP"}
+ - {link: "https://www.eventbrite.com/e/mendercon-2025-tickets-1270907050199", text: "Get tickets"}
 
 # About Block
 aboutTitle: "About MenderCon"
