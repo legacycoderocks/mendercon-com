@@ -9,10 +9,15 @@
   subtype: presentation
   speakers: [1]
 - id: 003
-  title: "Keynote"
-  description:
+  title: "Keynote - The productivity trap: Meet the perils and promises of AI-assisted coding"
+  description: |
+    As AI accelerates the pace of coding, organizations will have a hard time keeping up; acceleration isn't useful if it's driving our projects straight into a brick wall of technical debt. This presentation explores the consequences of AI-assisted coding, weighing its potential to improve productivity against the risks of deteriorating code quality.
+    
+    Adam delivers a fact-based examination of the short and long-term implications of using AI assistants in software development. Drawing from extensive research analyzing over 100,000 AI-driven refactorings in real-world codebases, we scrutinize the claims made by contemporary AI tools, demonstrating that increased coding speed does not necessarily equate to true productivity. Additionally, we also look at the correctness of AI generated code, a concern for many organizations today due to the error-prone nature of current AI tools.
+    
+    Finally, the talk offers strategies for succeeding with AI-assisted coding. This includes introducing a set of automated guardrails that act as feedback loops, ensuring your codebase remains maintainable even after adopting AI-assisted coding.
   subtype: keynote
-  speakers: []
+  speakers: [2]
 - id: 004
   title: "Pitch Session"
   description: "Come up on stage to announce your session title with a short description and the time that the session is scheduled to happen!"

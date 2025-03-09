@@ -1,5 +1,4 @@
--
-  id: 1
+- id: 1
   name: "M. Scott"
   surname: "Ford"
   company: "Corgibytes"
@@ -11,3 +10,14 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
     - {name: "mastodon", link: "https://toot.legacycode.rocks/@mscottford"}
     - {name: "github", link: "https://github.com/mscottford"}
+
+- id: 2
+  name: "Adam"
+  surname: "Tornhill"
+  company: ""
+  title: ""
+  bio: ""
+  thumbnailUrl:
+  rockstar: true
+  social:
+    - {name: "homepage", link: "https://www.adamtornhill.com/"}
