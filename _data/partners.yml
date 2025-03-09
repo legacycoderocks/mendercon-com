@@ -2,6 +2,4 @@
   group: "General sponsor"
   elements:
       - {name: "Corgibytes", description: "Corgibytes - old code; new tricks", link: "https://corgibytes.com", imageUrl: "corgibytes-logo.png"}
-      # - {name: "Planet Argon", description: "Planet Argon: Software Development with Ruby on Rails", link: "https://planetargon.com", imageUrl: "planet-argon-logo.png"}
-      - {name: "PureType", description: "Personalized microlearning platform for ambitious engineering teams", link: "https://puretype.ai/", imageUrl: "pure-type-logo.png"}
 
