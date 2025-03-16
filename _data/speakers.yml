@@ -1,5 +1,4 @@
--
-  id: 1
+- id: 1
   name: "M. Scott"
   surname: "Ford"
   company: "Corgibytes"
@@ -11,3 +10,16 @@
     - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
     - {name: "mastodon", link: "https://toot.legacycode.rocks/@mscottford"}
     - {name: "github", link: "https://github.com/mscottford"}
+
+- id: 2
+  name: "Adam"
+  surname: "Tornhill"
+  company: "CodeScene"
+  title: "Founder & CTO"
+  bio: "Adam Tornhill is a programmer who combines degrees in engineering and psychology. He’s the founder of CodeScene where he designs tools for code analysis. Adam is also a software researcher and author of multiple technical books, including the best selling Your Code as a Crime Scene. Adam’s other interests include music, retro computing, and martial arts."
+  thumbnailUrl: adam_tornhill.png
+  rockstar: true
+  social:
+    - {name: "site", link: "https://www.adamtornhill.com/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/adam-tornhill-71759b48/"}
+    - {name: "github", link: "https://github.com/adamtornhill"}
