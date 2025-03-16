@@ -14,9 +14,9 @@
 - id: 2
   name: "Adam"
   surname: "Tornhill"
-  company: ""
-  title: ""
-  bio: ""
+  company: "CodeScene"
+  title: "Founder & CTO"
+  bio: "Adam Tornhill is a programmer who combines degrees in engineering and psychology. He’s the founder of CodeScene where he designs tools for code analysis. Adam is also a software researcher and author of multiple technical books, including the best selling Your Code as a Crime Scene. Adam’s other interests include music, retro computing, and martial arts."
   thumbnailUrl:
   rockstar: true
   social:
