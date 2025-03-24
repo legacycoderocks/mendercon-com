@@ -48,7 +48,7 @@ layout: compress
     <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
-            var mastodonFeedUrl = '{{ site.mastodonFeedUrl }}';
+            var mastodonFeedApiUrl = '{{ site.mastodonFeedApiUrl }}';
             $(document).ready(function () {
                 $(function () {
                     if ($(window).width() > 767) {

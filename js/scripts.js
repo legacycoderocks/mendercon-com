@@ -228,8 +228,8 @@
             location.hash = $(this).attr('id');
         });
 
-        if (typeof mastodonFeedUrl !== 'undefined') {
-            $.getJSON(mastodonFeedUrl, function(data) {
+        if (typeof mastodonFeedApiUrl !== 'undefined') {
+            $.getJSON(mastodonFeedApiUrl, function(data) {
                 $.each(data, function(i, gist) {
                     var tootDate = new Date(gist.created_at);
                     var formattedTootDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeStyle: 'long', timeZone: 'America/New_York' }).format(tootDate);
