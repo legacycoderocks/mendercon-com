@@ -3,15 +3,76 @@
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
-            <a href="{{site.mastodonServer}}/{{ site.mastodonAccount }}" target="_blank">
+            <a href="{{site.mastodonServer}}{{ site.mastodonAccount }}" target="_blank">
             <svg class="icon" viewBox="0 0 24 24">
                 <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-mastodon"></use>
             </svg>
             </a>
-            <h3>{{ site.tootsFeedTitle }} <a href="{{ site.mastodonFeedUrl }}" target="_blank">#{{ site.mastodonHashTag }}</a>
+            <h3>{{ site.tootsFeedTitle }} <a href="{{site.mastodonServer}}{{ site.mastodonFeedUrl }}" target="_blank">#{{ site.mastodonHashTag }}</a>
             </h3>
             <div id="toots" class="toots"></div>
         </div>
     </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const mastodonFeedApiUrl = '{{ site.mastodonServer}}{{ site.mastodonFeedApiUrl }}';
+    const mastodonRefreshIntervalMilliSeconds = '{{ site.mastodonRefreshIntervalMilliSeconds }}';
+
+    if (typeof mastodonFeedApiUrl !== 'undefined' && mastodonFeedApiUrl) {
+        fetch(mastodonFeedApiUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                const tootsContainer = document.getElementById('toots');
+                data.forEach(gist => {
+                    const tootDate = new Date(gist.created_at);
+                    const formattedTootDate = new Intl.DateTimeFormat('en-US', { 
+                        dateStyle: 'full', 
+                        timeStyle: 'long', 
+                        timeZone: 'America/New_York' 
+                    }).format(tootDate);
+
+                    const tootElement = document.createElement('div');
+                    tootElement.className = 'toot animated fadeInUp hidden';
+
+                    tootElement.innerHTML = 
+                        '<div class="toot-text">' + 
+                            gist.content + 
+                        '</div>' +
+                        '<p class="toot-meta">' +
+                            'by <a href="' + gist.account.url + '" target="_blank">@' + gist.account.display_name + '</a>' +
+                            ' posted <a href="' + gist.url + '" target="_blank">' + formattedTootDate + '</a>' +
+                        '</p>';
+
+                    tootsContainer.appendChild(tootElement);
+                });
+
+                animateToots();
+            })
+            .catch(error => console.error('Error fetching Mastodon feed:', error));
+
+        function animateToots() {
+            const toots = document.querySelectorAll('#toots .toot');
+            let i = 0;
+
+            if (toots.length === 0) return;
+
+            toots[0].classList.remove('hidden');
+
+            function changeToots() {
+                toots[i].classList.add('hidden');
+                i = (i + 1) % toots.length;
+                toots[i].classList.remove('hidden');
+            }
+
+            setInterval(changeToots, mastodonRefreshIntervalMilliSeconds);
+        }
+    }
+});
+</script>
 <!-- End Mastodon Feed Section -->

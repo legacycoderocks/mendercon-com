@@ -28,8 +28,6 @@ collections:
 
 # Head
 metaKeywords: "mendercon, menders, unconference, refactoring, development, programming, legacy, code, software, remodeling, technical, debt"
-mastodonServer: "https://toot.legacycode.rocks"
-mastodonAccount: "@mendercon"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcMastodon: "/img/seo/sharing-mastodon.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -100,8 +98,12 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
 mastodonHashTag: "MenderCon2025"
-mastodonFeedApiUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2025"
-mastodonFeedUrl: "https://toot.legacycode.rocks/tags/MenderCon2025"
+mastodonServer: "https://toot.legacycode.rocks/"
+mastodonAccount: "@mendercon"
+mastodonFeedUrl: "tags/MenderCon2025"
+mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2025"
+mastodonRefreshIntervalMilliSeconds: 15000
+
 
 # Partners Block
 organizersTitle: "Organizers"
