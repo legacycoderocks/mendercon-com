@@ -227,39 +227,6 @@
         $('.slot').click(function() {
             location.hash = $(this).attr('id');
         });
-
-        if (typeof mastodonFeedUrl !== 'undefined') {
-            $.getJSON(mastodonFeedUrl, function(data) {
-                $.each(data, function(i, gist) {
-                    var tootDate = new Date(gist.created_at);
-                    var formattedTootDate = new Intl.DateTimeFormat('en-US', { dateStyle: 'full', timeStyle: 'long', timeZone: 'America/New_York' }).format(tootDate);
-                    var tootElement = 
-                        '<div class="toot animated fadeInUp hidden">' + 
-                            '<div class="toot-text">' + 
-                                gist.content + 
-                            '</div>' +
-                            '<p class="toot-meta">' +
-                                'by <a href="' + gist.account.url + '" target="_blank">@' + gist.account.display_name + '</a>' +
-                                ' posted <a href="' + gist.url + '" target="_blank">' + formattedTootDate + '</a>'
-                            '</p>' + 
-                        '</div>';
-                    $('#toots').append(tootElement);
-                });
-                animateToots();
-            });
-
-            function animateToots() {
-                var $toots = $('#toots').find('.toot'),
-                    i = 0;
-                $($toots.get(0)).removeClass('hidden');
-                function changeToots() {
-                    var next = (++i % $toots.length);
-                    $($toots.get(next - 1)).addClass('hidden');
-                    $($toots.get(next)).removeClass('hidden');
-                }
-                var interval = setInterval(changeToots, 5000);
-            }
-        }
     });
 
 })(jQuery);
