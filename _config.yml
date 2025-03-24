@@ -101,6 +101,7 @@ tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
 mastodonHashTag: "MenderCon2025"
 mastodonFeedApiUrl: "https://toot.legacycode.rocks/api/v1/timelines/tag/MenderCon2025"
+mastodonFeedUrl: "https://toot.legacycode.rocks/tags/MenderCon2025"
 
 # Partners Block
 organizersTitle: "Organizers"
