@@ -44,14 +44,39 @@
   description: "Close out the event with some final networking."
   subtype: workshop
 - id: 011
-  title: "Main Stage Presentation"
-  description: "TBD"
-  speakers: []
+  title: "Deciphering Legacy Codebases: Identifying, Understanding, and Transforming Code Idioms"
+  description: |
+    Deciphering legacy code is hard, but code idioms can help as they capture “how things are done here.” We will explore how to identify and leverage recurring idioms for refactoring and migration. The approach demonstrated is language-agnostic, and we will provide examples for RPG and Java.
+
+    In this talk, we’ll explore: 
+      - What code idioms are and how they emerge in real-world codebases 
+      - How mining code idioms helps developers understand legacy code more efficiently 
+      - How recognizing idioms improves refactoring and migration strategies 
+      - A language-agnostic approach to detecting idioms automatically 
+      - Practical examples using RPG and Java
+
+    Whether you’re maintaining legacy systems, performing migrations, or dealing with technical debt, leveraging code idioms can make your work more predictable and efficient. Join us to learn how automated idiom mining can help you maintain and transform legacy codebases with a little more confidence.
+  speakers: [4]
 - id: 012
-  title: "Main Stage Presentation"
-  description: "TBD"
-  speakers: []
+  title: "Build a VS Code Extension in 30 Minutes That Helps Your Team Conquer Tech Debt"
+  description: |
+    Imagine a world where tagging technical debt doesn’t interrupt your team’s work flow. A fantasy, right? Not so! In this 30-minute live coding session, we’ll build a custom VS Code extension that will allow your devs to live that beautiful dream!
+
+    Based on Cherrybomb, an app built and used internally at Planet Argon, your new VS Code extension will transform how your team handles legacy code challenges. By integrating seamlessly into VS Code, this extension captures code selections, file paths, and line numbers to instantly create detailed Jira issues, minimizing context switching and maximizing productivity.
+
+    Technical Requirements: A modern laptop with Node, Git, and VS Code installed is recommended to follow along with the live coding demos. I will be live-coding a greenfield app and referencing a prepared VS Code workspace with pre-configured code snippets and Jira API calls.
+  speakers: [3]
 - id: 013
-  title: "Main Stage Presentation"
-  description: "TBD"
-  speakers: []
+  title: "Legacy Code: Finding the Fun!"
+  description: |
+    I began my career writing original, creative code at startups, but soon found myself working with more and more legacy. It’s often frustrating—but it doesn’t have to be! I’ll share my experiences and reveal strategies that make working with old code surprisingly fun, rewarding, and even profitable
+
+    I want to tell a common story about how I started out writing fresh, creative code at startups, but very soon ended up dealing with legacy code. It’s often frustrating, but it doesn’t have to be. I’ll share my experiences, explore what makes legacy code painful, and reveal systematic approaches (and even some AI tricks) that make working with old codebases surprisingly fun, rewarding, and remunerative.
+
+    Learning Outcome:
+    - Legacy Code is Inevitable - even the best developers will write it.
+    - Attitude Matters - Viewing legacy work as a creative problem-solving challenge makes it more enjoyable.
+    - Systematic Approaches are Indispensable - What a starter toolkit looks like, and how to start introducing these techniques
+    - Quality Today Prevents Pain Tomorrow - Guidance on navigating the economic arguments
+    - AI is an Emerging Tool - AI can assist but won't replace human intuition and comprehension in legacy work.
+  speakers: [5]
