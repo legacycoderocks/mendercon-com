@@ -17,10 +17,10 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 #### 1.1 Update `_config.yml`
 **File**: [_config.yml](_config.yml)
 
-- [ ] **Line 51**: Change `eventDate: "May 15, 2025"` to `eventDate: "May 14, 2026"`
-- [ ] **Line 100**: Change `mastodonHashTag: "MenderCon2025"` to `mastodonHashTag: "MenderCon2026"`
-- [ ] **Line 103**: Change `mastodonFeedUrl: "tags/MenderCon2025"` to `mastodonFeedUrl: "tags/MenderCon2026"`
-- [ ] **Line 104**: Change `mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2025"` to `mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2026"`
+- [x] **Line 51**: Change `eventDate: "May 15, 2025"` to `eventDate: "May 14, 2026"`
+- [x] **Line 100**: Change `mastodonHashTag: "MenderCon2025"` to `mastodonHashTag: "MenderCon2026"`
+- [x] **Line 103**: Change `mastodonFeedUrl: "tags/MenderCon2025"` to `mastodonFeedUrl: "tags/MenderCon2026"`
+- [x] **Line 104**: Change `mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2025"` to `mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2026"`
 - [ ] **Line 36**: Update sponsorship prospectus PDF path from `MenderCon_2025_Sponsorship_Prospectus.pdf` to `MenderCon_2026_Sponsorship_Prospectus.pdf` (when available)
 
 ---
@@ -35,7 +35,7 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 #### 2.2 Update Hero Buttons in `_config.yml`
 **File**: [_config.yml](_config.yml)
 
-- [ ] **Lines 52-54**: Replace the "Get tickets" button with save the date message
+- [x] **Lines 52-54**: Replace the "Get tickets" button with save the date message
   ```yaml
   heroButtons:
    - {permalink: "#about", text: "Learn more"}

@@ -48,10 +48,10 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-eventDate: "May 15, 2025"
+eventDate: "May 14, 2026"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {link: "https://www.eventbrite.com/e/mendercon-2025-tickets-1270907050199", text: "Get tickets"}
+ - {permalink: "#save-the-date", text: "Save the Date"}
 
 # About Block
 aboutTitle: "About MenderCon"
@@ -97,11 +97,11 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Toots Feed Block
 tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
-mastodonHashTag: "MenderCon2025"
+mastodonHashTag: "MenderCon2026"
 mastodonServer: "https://toot.legacycode.rocks/"
 mastodonAccount: "@mendercon"
-mastodonFeedUrl: "tags/MenderCon2025"
-mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2025"
+mastodonFeedUrl: "tags/MenderCon2026"
+mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2026"
 mastodonRefreshIntervalMilliSeconds: 15000
 
 
