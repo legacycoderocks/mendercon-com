@@ -51,7 +51,6 @@ heroImage: "hero.jpg"
 eventDate: "May 14, 2026"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {permalink: "#save-the-date", text: "Save the Date"}
 
 # About Block
 aboutTitle: "About MenderCon"

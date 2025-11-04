@@ -30,7 +30,7 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 #### 2.1 Update Hero Section
 **File**: [_includes/hero.html](_includes/hero.html)
 
-- [ ] **Line 7**: Change `<h1>Mender<span class="title-highlight">Con</span> 2025</h1>` to `<h1>Mender<span class="title-highlight">Con</span> 2026</h1>`
+- [x] **Line 7**: Change `<h1>Mender<span class="title-highlight">Con</span> 2025</h1>` to `<h1>Mender<span class="title-highlight">Con</span> 2026</h1>`
 
 #### 2.2 Update Hero Buttons in `_config.yml`
 **File**: [_config.yml](_config.yml)
@@ -45,12 +45,12 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 #### 2.3 Add "Save the Date" Section to Home Page
 **File**: [index.html](index.html)
 
-- [ ] Add new include after hero section: `{% include save-the-date.html %}`
+- [x] Add new include after hero section: `{% include save-the-date.html %}`
 
 #### 2.4 Create Save the Date Component
 **File**: `_includes/save-the-date.html` (new file)
 
-- [ ] Create new include file with:
+- [x] Create new include file with:
   - Section explaining May 14, 2026 date
   - Note that tickets will be available later
   - Call to action to join community/mailing list
