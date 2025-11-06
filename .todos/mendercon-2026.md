@@ -82,12 +82,12 @@ NOTE: Tasks marked with [x] are completed.  You should mark completed tasks as y
 #### 4.1 Update Schedule Page Content
 **File**: [schedule.html](schedule.html)
 
-- [ ] Replace `{% include schedule.html %}` with `{% include schedule-coming-soon.html %}`
+- [x] Replace `{% include schedule.html %}` with `{% include schedule-coming-soon.html %}`
 
 #### 4.2 Create Coming Soon Component
 **File**: `_includes/schedule-coming-soon.html` (new file)
 
-- [ ] Create new include with:
+- [x] Create new include with:
   - "Schedule coming soon" message
   - Explanation of unconference format
   - Date reminder: May 14, 2026
@@ -96,16 +96,16 @@ NOTE: Tasks marked with [x] are completed.  You should mark completed tasks as y
 #### 4.3 Clear Current Schedule Data
 **File**: `_data/schedule.yml`
 
-- [ ] Clear/comment out all 2025 schedule data
-- [ ] Keep structure for reference
-- [ ] Add comment: "# MenderCon 2026 schedule - TBA"
+- [x] Clear/comment out all 2025 schedule data
+- [x] Keep structure for reference
+- [x] Add comment: "# MenderCon 2026 schedule - TBA"
 
 #### 4.4 Clear Current Sessions Data
 **File**: `_data/sessions.yml`
 
-- [ ] Clear/comment out all 2025 sessions
-- [ ] Keep structure for reference
-- [ ] Add comment: "# MenderCon 2026 sessions - TBA"
+- [x] Clear/comment out all 2025 sessions
+- [x] Keep structure for reference
+- [x] Add comment: "# MenderCon 2026 sessions - TBA"
 
 ---
 
