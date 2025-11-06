@@ -12,6 +12,8 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 
 ## Tasks
 
+NOTE: Tasks marked with [x] are completed.  You should mark completed tasks as you go.
+
 ### 1. Update Configuration Files
 
 #### 1.1 Update `_config.yml`
@@ -63,15 +65,15 @@ Update the MenderCon website from 2025 to 2026, archive 2025 content, and prepar
 #### 3.1 Update Speakers Page Content
 **File**: [speakers.html](speakers.html)
 
-- [ ] Remove/comment out speaker list: `{% include speakers-list.html %}`
-- [ ] Add message: "Speakers for MenderCon 2026 will be announced soon. Stay tuned!"
-- [ ] Update PaperCall link from "mendercon-2025" to "mendercon-2026" (line 13)
+- [x] Remove/comment out speaker list: `{% include speakers-list.html %}`
+- [x] Add message: "Speakers for MenderCon 2026 will be announced soon. Stay tuned!"
+- [x] Update PaperCall link from "mendercon-2025" to "mendercon-2026" (line 13)
 
 #### 3.2 Clear Current Speaker Data
 **File**: `_data/speakers.yml`
 
-- [ ] Clear/comment out all 2025 speakers (keep structure for reference)
-- [ ] Add comment at top: "# MenderCon 2026 speakers - TBA"
+- [x] Clear/comment out all 2025 speakers (keep structure for reference)
+- [x] Add comment at top: "# MenderCon 2026 speakers - TBA"
 
 ---
 
