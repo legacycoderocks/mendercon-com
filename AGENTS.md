@@ -5,7 +5,7 @@
 **MenderCon** is a virtual unconference website focused on modernizing and improving software systems. The conference brings together professionals interested in legacy code refactoring, technical debt, and software modernization.
 
 - **Website**: https://mendercon.com
-- **Next Event**: May 15, 2025
+- **Next Event**: May 14, 2026
 - **Event Type**: Virtual Unconference (attendee-driven session creation)
 
 ## Technology Stack
@@ -85,7 +85,7 @@ mendercon-com/
 
 ### 2. Interactive Components
 - **Modal Dialogs**: Speaker and session detail popups
-- **Live Mastodon Feed**: Refreshes every 15 seconds showing #MenderCon2025 posts
+- **Live Mastodon Feed**: Refreshes every 15 seconds showing #MenderCon posts
 - **Scroll Effects**: Header transformations, fade effects, animated counters
 - **Responsive Navigation**: Mobile-friendly slide-out menu
 - **Session Slider**: Carousel for speakers with multiple sessions
@@ -292,7 +292,7 @@ Edit `_data/partners.yml` to add/update sponsors and partners.
 ### Mastodon Feed
 - Lives in `_includes/mastodon-feed.html`
 - Fetches from legacycode.rocks Mastodon instance
-- Hashtag: #MenderCon2025 (configurable in _config.yml)
+- Hashtag: #MenderCon (configurable in _config.yml)
 - Refresh interval: 15 seconds (configurable)
 - JavaScript in `js/scripts.js`
 
