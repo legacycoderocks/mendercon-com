@@ -6,7 +6,19 @@ safe: false
 # Build Settings
 markdown: kramdown
 permalink: pretty
-exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+exclude:
+  - '/automation/'
+  - 'README.md'
+  - 'LICENSE.txt'
+  - 'CNAME'
+  - 'AGENTS.md'
+  - 'CLAUDE.md'
+  - 'cod.md'
+  - 'Dockerfile'
+  - 'docker-compose.yml'
+  - 'docker-entrypoint.sh'
+  - 'Gemfile'
+  - 'Gemfile.lock'
 
 encoding: UTF-8
 
@@ -25,6 +37,9 @@ isAcceptingSponsors: true
 collections:
   faqs:
     output: true
+  pages:
+    output: true
+    permalink: /:basename/
 
 # Head
 metaKeywords: "mendercon, menders, unconference, refactoring, development, programming, legacy, code, software, remodeling, technical, debt"
