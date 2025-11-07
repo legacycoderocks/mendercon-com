@@ -6,7 +6,8 @@ permalink: /schedule/
 
 {% include top-section.html %}
 
-{% include schedule-coming-soon.html %}
-
-<!-- 2025 schedule - commented out for 2026 -->
-<!-- {% include schedule.html %} -->
+{% if site.data.schedule.size > 0 %}
+  {% include schedule.html %}
+{% else %}
+  {% include schedule-coming-soon.html %}
+{% endif %}

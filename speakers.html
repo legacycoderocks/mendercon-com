@@ -7,13 +7,8 @@ modal: all
 
 {% include top-section.html %}
 
-<section id="speakers-coming-soon" class="speakers-coming-soon">
-  <div class="content-wrapper">
-    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center">
-      <p class="lead">We're excited to bring together amazing speakers for MenderCon 2026.</p>
-      <p>As an unconference, MenderCon thrives on community participation. If you're passionate about legacy code modernization, technical debt, or software improvement practices, we'd love to hear from you!</p>
-      <p>Please check back in <strong>January 2026</strong> when the call for papers open.</p>
-      <br>
-    </div>
-  </div>
-</section>
+{% if site.data.speakers.size > 0 %}
+  {% include speakers-list.html %}
+{% else %}
+  {% include speakers-coming-soon.html %}
+{% endif %}
