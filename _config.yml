@@ -96,11 +96,11 @@ venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio syste
 # Toots Feed Block
 tootsFeedImage: "mastodon-feed.jpg"
 tootsFeedTitle: "What's Up?"
-mastodonHashTag: "MenderCon2026"
+mastodonHashTag: "MenderCon"
 mastodonServer: "https://toot.legacycode.rocks/"
 mastodonAccount: "@mendercon"
-mastodonFeedUrl: "tags/MenderCon2026"
-mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon2026"
+mastodonFeedUrl: "tags/MenderCon"
+mastodonFeedApiUrl: "api/v1/timelines/tag/MenderCon"
 mastodonRefreshIntervalMilliSeconds: 15000
 
 
