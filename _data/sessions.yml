@@ -1,82 +1,9 @@
-- id: 001
-  title: "Pre-Conference Meet & Greet"
-  description: "Take advantage of pre-event networking while we get things set up."
-  subtype: workshop
-  speakers: []
-- id: 002
-  title: "Introduction & Overview"
-  description: "Learn what to expect, what the rules are, etc."
-  subtype: presentation
-  speakers: [1]
-- id: 003
-  title: "Keynote - The productivity trap: Meet the perils and promises of AI-assisted coding"
-  description: |
-    As AI accelerates the pace of coding, organizations will have a hard time keeping up; acceleration isn't useful if it's driving our projects straight into a brick wall of technical debt. This presentation explores the consequences of AI-assisted coding, weighing its potential to improve productivity against the risks of deteriorating code quality.
-    
-    Adam delivers a fact-based examination of the short and long-term implications of using AI assistants in software development. Drawing from extensive research analyzing over 100,000 AI-driven refactorings in real-world codebases, we scrutinize the claims made by contemporary AI tools, demonstrating that increased coding speed does not necessarily equate to true productivity. Additionally, we also look at the correctness of AI generated code, a concern for many organizations today due to the error-prone nature of current AI tools.
-    
-    Finally, the talk offers strategies for succeeding with AI-assisted coding. This includes introducing a set of automated guardrails that act as feedback loops, ensuring your codebase remains maintainable even after adopting AI-assisted coding.
-  subtype: keynote
-  speakers: [2]
-- id: 004
-  title: "Pitch Session"
-  description: "Come up on stage to announce your session title with a short description and the time that the session is scheduled to happen!"
-  subtype: workshop
-- id: 005
-  title: "Session Round One"
-  description: "First time block for sessions pitched during the pitch session."
-  subtype: presentation
-- id: 006
-  title: "Session Round Two"
-  description: "Second time block for sessions pitched during the pitch session."
-  subtype: presentation
-- id: 007
-  title: "Session Round Three"
-  description: "Third time block for sessions pitched during the pitch session."
-  subtype: presentation
-- id: 008
-  title: "Closing Circle & Retrospective"
-  description: "With the end of any project, let’s come together to talk about what went well, what could’ve been better, and what should change for next time."
-  subtype: workshop
-  speakers: []
-- id: 009
-  title: "Post-Event Networking"
-  description: "Close out the event with some final networking."
-  subtype: workshop
-- id: 011
-  title: "Deciphering Legacy Codebases: Identifying, Understanding, and Transforming Code Idioms"
-  description: |
-    Deciphering legacy code is hard, but code idioms can help as they capture “how things are done here.” We will explore how to identify and leverage recurring idioms for refactoring and migration. The approach demonstrated is language-agnostic, and we will provide examples for RPG and Java.
+# MenderCon 2026 sessions - TBA
+# Sessions will be announced as they are confirmed
 
-    In this talk, we’ll explore: 
-      - What code idioms are and how they emerge in real-world codebases 
-      - How mining code idioms helps developers understand legacy code more efficiently 
-      - How recognizing idioms improves refactoring and migration strategies 
-      - A language-agnostic approach to detecting idioms automatically 
-      - Practical examples using RPG and Java
-
-    Whether you’re maintaining legacy systems, performing migrations, or dealing with technical debt, leveraging code idioms can make your work more predictable and efficient. Join us to learn how automated idiom mining can help you maintain and transform legacy codebases with a little more confidence.
-  speakers: [4]
-- id: 012
-  title: "Build a VS Code Extension in 30 Minutes That Helps Your Team Conquer Tech Debt"
-  description: |
-    Imagine a world where tagging technical debt doesn’t interrupt your team’s work flow. A fantasy, right? Not so! In this 30-minute live coding session, we’ll build a custom VS Code extension that will allow your devs to live that beautiful dream!
-
-    Based on Cherrybomb, an app built and used internally at Planet Argon, your new VS Code extension will transform how your team handles legacy code challenges. By integrating seamlessly into VS Code, this extension captures code selections, file paths, and line numbers to instantly create detailed Jira issues, minimizing context switching and maximizing productivity.
-
-    Technical Requirements: A modern laptop with Node, Git, and VS Code installed is recommended to follow along with the live coding demos. I will be live-coding a greenfield app and referencing a prepared VS Code workspace with pre-configured code snippets and Jira API calls.
-  speakers: [3]
-- id: 013
-  title: "Legacy Code: Finding the Fun!"
-  description: |
-    I began my career writing original, creative code at startups, but soon found myself working with more and more legacy. It’s often frustrating—but it doesn’t have to be! I’ll share my experiences and reveal strategies that make working with old code surprisingly fun, rewarding, and even profitable
-
-    I want to tell a common story about how I started out writing fresh, creative code at startups, but very soon ended up dealing with legacy code. It’s often frustrating, but it doesn’t have to be. I’ll share my experiences, explore what makes legacy code painful, and reveal systematic approaches (and even some AI tricks) that make working with old codebases surprisingly fun, rewarding, and remunerative.
-
-    Learning Outcome:
-    - Legacy Code is Inevitable - even the best developers will write it.
-    - Attitude Matters - Viewing legacy work as a creative problem-solving challenge makes it more enjoyable.
-    - Systematic Approaches are Indispensable - What a starter toolkit looks like, and how to start introducing these techniques
-    - Quality Today Prevents Pain Tomorrow - Guidance on navigating the economic arguments
-    - AI is an Emerging Tool - AI can assist but won't replace human intuition and comprehension in legacy work.
-  speakers: [5]
+# Example session format:
+# - id: 001
+#   title: "Session Title"
+#   description: "Session description..."
+#   subtype: presentation  # Options: keynote, presentation, workshop
+#   speakers: [1, 2]  # Speaker IDs from speakers.yml

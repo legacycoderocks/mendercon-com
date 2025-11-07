@@ -1,68 +1,18 @@
-- id: 1
-  name: "M. Scott"
-  surname: "Ford"
-  company: "Corgibytes"
-  title: "Co-Founder and Chief Code Whisperer"
-  bio: 'M. Scott Ford is the Co-Founder and Chief Code Whisperer at <a href="https://corgibytes.com">Corgibytes</a>, a software consultancy dedicated to modernizing existing codebases. Scott, who has been called the “Bob Vila of the internet”, is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott’s love of software restoration and remodeling began in college where he and his team were responsible for retrofiting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing codebase needed to be improved. Scott is also a guest lecturer on Continuous Delivery practices at Harvard University.'
-  thumbnailUrl: m_scott_ford.jpg
-  rockstar: true
-  social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
-    - {name: "mastodon", link: "https://toot.legacycode.rocks/@mscottford"}
-    - {name: "github", link: "https://github.com/mscottford"}
+# MenderCon 2026 speakers - TBA
+# Speakers will be announced as they are confirmed
 
-- id: 2
-  name: "Adam"
-  surname: "Tornhill"
-  company: "CodeScene"
-  title: "Founder & CTO"
-  bio: "Adam Tornhill is a programmer who combines degrees in engineering and psychology. He’s the founder of CodeScene where he designs tools for code analysis. Adam is also a software researcher and author of multiple technical books, including the best selling Your Code as a Crime Scene. Adam’s other interests include music, retro computing, and martial arts."
-  thumbnailUrl: adam_tornhill.png
-  rockstar: true
-  social:
-    - {name: "site", link: "https://www.adamtornhill.com/"}
-    - {name: "linkedin", link: "https://www.linkedin.com/in/adam-tornhill-71759b48/"}
-    - {name: "github", link: "https://github.com/adamtornhill"}
-
-- id: 3
-  name: "Ben"
-  surname: "Parisot"
-  company: "Planet Argon"
-  title: "Engineering Manager"
-  bio: "Ben helps engineering teams improve processes, increase productivity, and boost morale by working with engineers to identify and solve workflow problems and develop career advancement plans that quickly level up their skills and position them as subject matter experts. Ben builds tools with JavaScript, React, and TypeScript that solve problems for his team and others. He is currently tapping the blimp at Planet Argon."
-  thumbnailUrl: ben_parisot.jpg
-  rockstar: true
-  social:
-    - {name: "site", link: "https://www.planetargon.com/"}
-
-- id: 4
-  name: "Federico"
-  surname: "Tomassetti"
-  company: "Strumenta"
-  title: "Founder & Managing Director"
-  bio: |
-    Federico Tomassetti is the founder of Strumenta, a company specializing in software language engineering. At Strumenta, he helps organizations modernize and transform their software assets by designing domain-specific languages, transpilers, interpreters, editors, and parsers. His work includes deep expertise in legacy code processing, in languages such as RPG, COBOL, and SAS.
-
-    Federico holds a PhD in Software Language Engineering and has extensive experience in building tooling for understanding, refactoring, and migrating complex codebases. He is a frequent speaker at international conferences, sharing insights on language engineering.
-  thumbnailUrl: federico_tomassetti.jpg
-  rockstar: true
-  social:
-    - {name: "site", link: "https://tomassetti.me/"}
-    - {name: "twitter", link: "https://twitter.com/ftomassetti"}
-
-- id: 5
-  name: "Dan"
-  surname: "Prager"
-  company: "Prager's Law"
-  title: "Agile Coach"
-  bio: |
-    An early adopter of Agile, including the technical XP practices, Dan coaches and trains people in Agile and DevOps in startups, scale-ups, and larger organisations. Dan is a passionate supporter of the Australian Agile community, and a regular speaker and participant at conferences and meet-ups.
-
-    After completing his PhD in computational mathematical physics on the numerical evolution of a class of black holes, Dan left academia in the 1990’s to pursue a career in software development. He quickly discovered that trying to plan everything up front made very little sense, and went looking for better approaches. This led him to iterative and incremental approaches to creating software, fore-runners of Agile. Later he learned that Agile approaches generalise to all forms of knowledge work.
-
-    Dan is married to Andi Herman. Together they created YouPatch (a web site for turning images into patchwork quilt designs), as well as two now grown-up children, and have acquired additional now grown-up kids along the way.
-  thumbnailUrl: dan_prager.png
-  rockstar: true
-  social:
-    - {name: "site", link: "https://pragerslaw.com/"}
-    - {name: "twitter", link: "https://twitter.com/agilejitsu"}
+# Example speaker format:
+# - id: 1
+#   name: "First"
+#   surname: "Last"
+#   company: "Company Name"
+#   title: "Job Title"
+#   bio: "Speaker biography..."
+#   thumbnailUrl: speaker-photo.jpg
+#   rockstar: true  # Optional: featured speaker
+#   social:
+#     - {name: "linkedin", link: "https://www.linkedin.com/in/username/"}
+#     - {name: "mastodon", link: "https://mastodon.instance/@username"}
+#     - {name: "twitter", link: "https://twitter.com/username"}
+#     - {name: "github", link: "https://github.com/username"}
+#     - {name: "site", link: "https://example.com"}

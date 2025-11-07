@@ -1,52 +1,16 @@
--
-  date: "2025-05-15"
-  dateReadable: "May 15, 2025"
-  tracks:
-    - {title: "Track One", color: "#90be4e"}
-    - {title: "Track Two", color: "#03a9f4"}
-  timeslots:
-    - {
-    	startTime: "10:00",
-    	endTime: "10:25",
-    	sessionIds: [001]
-    }
-    - {
-    	startTime: "10:30",
-    	endTime: "10:50",
-    	sessionIds: [002]
-    }
-    - {
-    	startTime: "11:00",
-    	endTime: "11:50",
-    	sessionIds: [003]
-    }
-    - {
-    	startTime: "12:00",
-    	endTime: "12:50",
-    	sessionIds: [004]
-    }
-    - {
-    	startTime: "13:00",
-    	endTime: "13:50",
-    	sessionIds: [005,011]
-    }
-    - {
-    	startTime: "14:00",
-    	endTime: "14:50",
-    	sessionIds: [006,0012]
-    }
-    - {
-    	startTime: "15:00",
-    	endTime: "15:50",
-    	sessionIds: [007,013]
-    }
-    - {
-        startTime: "16:00",
-        endTime: "16:50",
-        sessionIds: [008]
-    }
-    - {
-    	startTime: "17:00",
-    	endTime: "17:50",
-    	sessionIds: [009]
-    }
+# MenderCon 2026 schedule - TBA
+# Schedule will be created as sessions are confirmed
+
+# Example schedule format:
+# -
+#   date: "2026-05-14"
+#   dateReadable: "May 14, 2026"
+#   tracks:
+#     - {title: "Track One", color: "#90be4e"}
+#     - {title: "Track Two", color: "#03a9f4"}
+#   timeslots:
+#     - {
+#       startTime: "10:00",
+#       endTime: "10:25",
+#       sessionIds: [001]
+#     }

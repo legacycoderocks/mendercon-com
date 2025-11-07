@@ -6,4 +6,8 @@ permalink: /schedule/
 
 {% include top-section.html %}
 
-{% include schedule.html %}
+{% if site.data.schedule.size > 0 %}
+  {% include schedule.html %}
+{% else %}
+  {% include schedule-coming-soon.html %}
+{% endif %}
