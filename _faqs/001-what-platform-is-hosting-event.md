@@ -12,7 +12,7 @@ As you get closer to other avatars, you can share you'll see their video and hea
 
 ![Screenshot of people interacting in Gather](/img/other/gather-people-interacting.png)
 
-Gather has [a few useful guides]([https://support.gather.town/help/gather-basics](https://support.gather.town/hc/en-us)) to help you get started. Take a peek. Get used to the environment. Customize your avatar. Make sure your web browser and camera are set up correctly.
+Gather has [a useful guide](https://support.help.gather.town/articles/1982412443-getting-started-guide) to help you get started. Take a peek. Get used to the environment. Customize your avatar. Make sure your web browser and camera are set up correctly.
 
 Our experience was that Gather helps with networking as attendees can "walk" around the space and organically strike up conversations with others.
 
