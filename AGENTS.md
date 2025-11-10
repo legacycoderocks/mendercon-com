@@ -5,7 +5,7 @@
 **MenderCon** is a virtual unconference website focused on modernizing and improving software systems. The conference brings together professionals interested in legacy code refactoring, technical debt, and software modernization.
 
 - **Website**: https://mendercon.com
-- **Next Event**: May 14, 2026
+- **Next Event**: May 7, 2026
 - **Event Type**: Virtual Unconference (attendee-driven session creation)
 
 ## Technology Stack

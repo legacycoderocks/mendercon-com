@@ -4,7 +4,7 @@
 # Example schedule format:
 # -
 #   date: "2026-05-14"
-#   dateReadable: "May 14, 2026"
+#   dateReadable: "May 7, 2026"
 #   tracks:
 #     - {title: "Track One", color: "#90be4e"}
 #     - {title: "Track Two", color: "#03a9f4"}

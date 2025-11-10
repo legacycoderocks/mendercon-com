@@ -63,7 +63,7 @@ navigationLinks:
 
 # Hero Block
 heroImage: "hero.jpg"
-eventDate: "May 14, 2026"
+eventDate: "May 7, 2026"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
 
