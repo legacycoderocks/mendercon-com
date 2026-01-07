@@ -70,7 +70,7 @@ heroImage: "hero.jpg"
 eventDate: "May 7, 2026"
 heroButtons:
  - {permalink: "#about", text: "Learn more"}
- - {permalink: *cfpUrl, text: "Submit your talk"}
+ - {link: *cfpUrl, text: "Submit your talk"}
 
 # About Block
 aboutTitle: "About MenderCon"
