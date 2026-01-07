@@ -7,9 +7,13 @@
         legacy code modernization, technical debt, or software improvement practices,
         we'd love to hear from you!
       </p>
+      {% if site.showCfpButton %}
       <p>
-        Please check back in <strong>January 2026</strong> when the call for papers
-        opens or follow
+        <a href="{{ site.cfpUrl }}" target="_blank" class="btn btn-primary waves-effect waves-button waves-light waves-float">Submit Your Talk</a>
+      </p>
+      {% endif %}
+      <p>
+        Follow
         <a href="{{ site.mastodonServer }}{{ site.mastodonAccount }}" target="_blank">{{ site.mastodonAccount }}</a>
         on Mastodon for updates!
       </p>
