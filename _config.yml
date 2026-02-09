@@ -51,7 +51,7 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 c4sponsorsUrl: "/assets/MenderCon_2025_Sponsorship_Prospectus.pdf"
 
 # Call for Papers
-cfpUrl: &cfpUrl "https://www.papercall.io/mendercon-2026"
+cfpUrl: &cfpUrl "https://sessionize.com/mendercon-2026/"
 showCfpButton: true
 
 
