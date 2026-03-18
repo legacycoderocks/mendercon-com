@@ -133,8 +133,8 @@ partnersC4sponsorsButton: "Become a sponsor"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Subscribe for updates"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeUrl: "https://mendercon.kit.com/eb8cbec1cd"
+subscribeInfo: "Get notified when tickets go on sale, the call for papers opens, and other important dates."
 
 # Tickets
 ticketsOffers:
