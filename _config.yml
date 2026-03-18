@@ -52,7 +52,7 @@ c4sponsorsUrl: "/assets/MenderCon_2025_Sponsorship_Prospectus.pdf"
 
 # Call for Papers
 cfpUrl: &cfpUrl "https://sessionize.com/mendercon-2026/"
-showCfpButton: true
+showCfpButton: false
 
 
 # Navigation
@@ -72,7 +72,6 @@ ticketsUrl: &ticketsUrl "https://www.eventbrite.com/e/mendercon-2026-tickets-198
 heroButtons:
  - {link: *ticketsUrl, text: "Get your ticket"}
  - {permalink: "#about", text: "Learn more"}
- - {link: *cfpUrl, text: "Submit your talk"}
 
 # About Block
 aboutTitle: "About MenderCon"
