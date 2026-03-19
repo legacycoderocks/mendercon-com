@@ -1,9 +1,10 @@
-# MenderCon 2026 sessions - TBA
-# Sessions will be announced as they are confirmed
+- id: 001
+  title: "Keynote - Technical Coaching as a Career"
+  description: |
+    Technical coaches help software developers to adopt better coding practices. The smart insight is that if you improve the code and the way it is being written, then the rest of your product and architectural goals become easier to achieve. It's easier to add new features, adopt new technology and modernize legacy code. Technical coaches encourage and teach skills like Test-Driven Development, Refactoring and the use of Design Patterns. Recently many of us have also been coaching developers to use AI tools better.
 
-# Example session format:
-# - id: 001
-#   title: "Session Title"
-#   description: "Session description..."
-#   subtype: presentation  # Options: keynote, presentation, workshop
-#   speakers: [1, 2]  # Speaker IDs from speakers.yml
+    Technical coaching is a career where you get to stay very close to the code but your main contribution is through facilitating, mentoring and teaching, rather than writing production code or tests directly. Even if it's not the perfect career for you personally, mentoring is a useful skill for any senior developer. Plus, we all have a lot to learn about the new AI tools that are sweeping into our industry at the moment. I predict technical coaching will become an important part of technology adoption strategy in all kinds of organizations.
+
+    In this talk you will learn about how a technical coaching career can work, what skills you need, challenges you could expect and where you can get help and support on your journey.
+  subtype: keynote
+  speakers: [1]

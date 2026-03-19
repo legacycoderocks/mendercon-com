@@ -1,18 +1,10 @@
-# MenderCon 2026 speakers - TBA
-# Speakers will be announced as they are confirmed
-
-# Example speaker format:
-# - id: 1
-#   name: "First"
-#   surname: "Last"
-#   company: "Company Name"
-#   title: "Job Title"
-#   bio: "Speaker biography..."
-#   thumbnailUrl: speaker-photo.jpg
-#   rockstar: true  # Optional: featured speaker
-#   social:
-#     - {name: "linkedin", link: "https://www.linkedin.com/in/username/"}
-#     - {name: "mastodon", link: "https://mastodon.instance/@username"}
-#     - {name: "twitter", link: "https://twitter.com/username"}
-#     - {name: "github", link: "https://github.com/username"}
-#     - {name: "site", link: "https://example.com"}
+- id: 1
+  name: "Emily"
+  surname: "Bache"
+  company: "Bache Consulting AB"
+  title: "Technical Agile Coach"
+  bio: "Emily Bache is a Technical Agile Coach, helping software development teams to adopt better coding practices. She is the author of 'The Coding Dojo Handbook' and maintains several popular open-source projects for practicing TDD and refactoring, including the GildedRose kata. Emily speaks regularly at international conferences and has deep expertise in Test-Driven Development, Refactoring, and technical coaching."
+  thumbnailUrl: emily_bache.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/emilybache/"}
