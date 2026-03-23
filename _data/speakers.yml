@@ -1,10 +1,13 @@
 - id: 1
   name: "Emily"
   surname: "Bache"
-  company: "Bache Consulting AB"
-  title: "Technical Agile Coach"
-  bio: "Emily Bache is a Technical Agile Coach, helping software development teams to adopt better coding practices. She is the author of 'The Coding Dojo Handbook' and maintains several popular open-source projects for practicing TDD and refactoring, including the GildedRose kata. Emily speaks regularly at international conferences and has deep expertise in Test-Driven Development, Refactoring, and technical coaching."
+  company: "Bache Consulting"
+  title: "Samman Technical Coach"
+  bio: "Emily Bache is an independent consultant, YouTuber and Technical Coach. She works with developers, training and coaching effective agile practices like Refactoring and Test-Driven Development. Emily has written two books about software development and contributed to several others. Emily founded the Samman Technical Coaching Society in order to promote technical excellence and support coaches everywhere."
   thumbnailUrl: emily_bache.jpg
   rockstar: true
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/emilybache/"}
+    - {name: "youtube", link: "https://www.youtube.com/@EmilyBache-tech-coach"}
+    - {name: "github", link: "https://github.com/emilybache"}
+    - {name: "website", link: "http://bacheconsulting.com/"}
