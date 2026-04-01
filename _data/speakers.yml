@@ -52,7 +52,6 @@
   title: "Software Mender | Speaker | LinkedIn Learning Instructor"
   bio: 'M. Scott Ford, who has been called the "Bob Vila of the internet", is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott''s love of software restoration and remodeling began in college where he and his team were responsible for retrofiting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing codebase needed to be improved. Scott is also a guest lecturer on Continuous Delivery practices at Harvard University.'
   thumbnailUrl: m_scott_ford.jpg
-  rockstar: true
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
     - {name: "twitter", link: "https://twitter.com/mscottford"}
