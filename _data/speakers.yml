@@ -11,3 +11,49 @@
     - {name: "youtube", link: "https://www.youtube.com/@EmilyBache-tech-coach"}
     - {name: "github", link: "https://github.com/emilybache"}
     - {name: "website", link: "http://bacheconsulting.com/"}
+- id: 2
+  name: "Yoan"
+  surname: "Thirion"
+  company: "Pyxis Suisse"
+  title: "Agile Technical Coach"
+  bio: "Yoan Thirion is an agile technical coach and software crafter with 15 years of experience in software development, working for Pyxis Suisse. His different experiences in startups, small software companies, and in the service industry led him to code on a wide range of platforms and languages: mobile app development on the ancestors of our smartphones (J2ME, RIM, Windows Mobile, …), .NET stack (C#, F#, C++), PHP, Java stack (Java, Kotlin, Scala), SPA (Angular mainly). He started coaching about five years ago when he realized that he liked helping other developers and learning every day. He is an enthusiast who is always eager to learn and share with others."
+  thumbnailUrl: yoan-thirion.png
+  rockstar: true
+  social:
+    - {name: "twitter", link: "https://twitter.com/yot88"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/yoanthirion/"}
+    - {name: "website", link: "https://yoan-thirion.com"}
+- id: 3
+  name: "Bhaskar Bharat"
+  surname: "Sawant"
+  company: "Cornerstone Building Brands"
+  title: "Lead Engineer & Solutions Architect"
+  bio: "Bhaskar Bharat Sawant is a Senior Software Engineer and international conference speaker who specializes in modernizing and maintaining large-scale production systems. He works extensively with enterprise platforms where legacy code, complex databases, and evolving architectures must coexist with modern cloud and AI technologies. In his day-to-day work, Bhaskar focuses on improving system reliability, reducing technical debt, and building automation that helps engineering teams manage long-lived software systems more effectively. His experience spans database-heavy applications, DevOps automation, platform engineering, and production observability. Bhaskar is an active contributor to the global developer community and regularly speaks at international conferences on topics including AI-assisted engineering, legacy system modernization, DevSecOps automation, and scalable backend architectures."
+  thumbnailUrl: bhaskar-bharat-sawant.png
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/bhaskar-bharat-sawant/"}
+    - {name: "website", link: "https://bhaskarsawant.github.io"}
+- id: 4
+  name: "Ray"
+  surname: "Myers"
+  company: "OpenHands"
+  title: "Chief Architect"
+  bio: "Ray Myers is a legacy code expert with 19 years of Software Engineering experience across four industries. His recent work explores the delicate intersection of AI and maintainability. He co-hosts the Empathy In Tech podcast and publishes guidance on the Craft vs Cruft YouTube channel with influences from DevOps to Taoism."
+  thumbnailUrl: ray-myers.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/cadrlife/"}
+    - {name: "website", link: "https://raymyers.org"}
+- id: 5
+  name: "M. Scott"
+  surname: "Ford"
+  company: ""
+  title: "Software Mender | Speaker | LinkedIn Learning Instructor"
+  bio: 'M. Scott Ford, who has been called the "Bob Vila of the internet", is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott''s love of software restoration and remodeling began in college where he and his team were responsible for retrofiting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing codebase needed to be improved. Scott is also a guest lecturer on Continuous Delivery practices at Harvard University.'
+  thumbnailUrl: m_scott_ford.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/mscottford/"}
+    - {name: "twitter", link: "https://twitter.com/mscottford"}
+    - {name: "github", link: "https://github.com/mscottford"}

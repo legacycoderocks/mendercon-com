@@ -1,5 +1,18 @@
-- id: 001
-  title: "Keynote - Technical Coaching as a Career"
+-
+  id: 001
+  title: "Pre-Conference Meet & Greet"
+  description: "Take advantage of pre-event networking while we get things set up."
+  subtype: workshop
+  speakers: []
+-
+  id: 002
+  title: "Introduction & Overview"
+  description: "Learn what to expect, what the rules are, etc."
+  subtype: presentation
+  speakers: [5]
+-
+  id: 003
+  title: "Opening Keynote - Technical Coaching as a Career"
   description: |
     Technical coaches help software developers to adopt better coding practices. The smart insight is that if you improve the code and the way it is being written, then the rest of your product and architectural goals become easier to achieve. It's easier to add new features, adopt new technology and modernize legacy code. Technical coaches encourage and teach skills like Test-Driven Development, Refactoring and the use of Design Patterns. Recently many of us have also been coaching developers to use AI tools better.
 
@@ -8,3 +21,78 @@
     In this talk you will learn about how a technical coaching career can work, what skills you need, challenges you could expect and where you can get help and support on your journey.
   subtype: keynote
   speakers: [1]
+-
+  id: 004
+  title: "Pitch Session"
+  description: "Come up on stage to announce your session title with a short description and the time that the session is scheduled to happen!"
+  subtype: workshop
+  speakers: []
+-
+  id: 005
+  title: "Session Round One"
+  description: "First time block for sessions pitched during the pitch session."
+  subtype: presentation
+  speakers: []
+-
+  id: 006
+  title: "Session Round Two"
+  description: "Second time block for sessions pitched during the pitch session."
+  subtype: presentation
+  speakers: []
+-
+  id: 007
+  title: "Session Round Three"
+  description: "Third time block for sessions pitched during the pitch session."
+  subtype: presentation
+  speakers: []
+-
+  id: 008
+  title: "Closing Circle & Retrospective"
+  description: "As with the end of any project, let's come together to talk about what went well, what could've been better, and what should change for next time."
+  subtype: workshop
+  speakers: [5]
+-
+  id: 009
+  title: "Post-Event Networking"
+  description: "Close out the event with some final networking."
+  subtype: workshop
+  speakers: []
+-
+  id: 011
+  title: "Outside-In Discovery: A structured way to understand Legacy Code (with and without AI)"
+  description: |
+    Studies estimate that developers spend up to 60% of their time reading code. Yet almost no one teaches us how to do it well.
+
+    When we join a new team or inherit a legacy system, we're expected to understand it quickly, assess risk, and deliver value — often without documentation, architectural clarity, or onboarding support. The usual strategy? Open files at random. Follow method calls. Scroll. Hope something clicks. It's slow. It's cognitively exhausting. And it's risky.
+
+    In this talk, I introduce Outside-In Discovery — a practical, time-boxed method to explore unknown systems layer by layer. Instead of diving straight into classes and methods, we start from the outside: documentation, CI/CD pipelines, git history, dependency health, build stability, and runtime behavior. Only then do we progressively move inward toward architecture, hotspots, test quality, and structural weaknesses.
+
+    Through a legacy case study, you'll see how this structured approach quickly surfaces critical signals: deprecated frameworks and dependency drift, architectural inconsistencies and unclear boundaries, high test coverage but weak mutation scores, and risky hotspots combining complexity and change frequency.
+
+    Then we take it further. What happens when we augment this method with AI? Used thoughtfully, AI can accelerate discovery by reverse-engineering product backlogs from code, generating C4 architecture diagrams, tracing end-to-end feature flows, and highlighting code smells and design violations. But AI can also hallucinate, over-assume, and misinterpret business intent. I'll show where it adds leverage — and where human judgment remains essential.
+
+    You'll leave with a repeatable 1-hour discovery checklist, a framework to assess the real health of any codebase, practical prompts to use AI as a sparring partner, and clear signals to prioritize safe, impactful change. Because legacy code isn't the real challenge. Unstructured exploration is.
+  subtype: presentation
+  speakers: [2]
+-
+  id: 012
+  title: "The Hidden Cost of \"Just One More Fix\": How Tech Debt Slowly Breaks Production Systems"
+  description: |
+    Technical debt rarely appears overnight. It accumulates quietly — one quick patch, one rushed release, one temporary workaround at a time. At first, everything works. Then deployments slow down, bugs become harder to trace, and seemingly small changes begin to break unrelated parts of the system.
+
+    This talk explores how technical debt grows inside long-lived systems and why many teams underestimate its impact until reliability and productivity start to suffer.
+
+    Through real-world engineering examples, we'll examine common sources of hidden technical debt — such as tightly coupled modules, outdated dependencies, fragile database queries, and undocumented behavior. We'll also discuss practical strategies teams can use to identify, prioritize, and gradually reduce technical debt without disrupting production systems.
+
+    Attendees will leave with a framework for recognizing the warning signs of technical debt and practical approaches for transforming "quick fixes" into sustainable engineering improvements. Because maintaining software isn't just about fixing bugs — it's about ensuring systems remain healthy enough to evolve.
+  subtype: presentation
+  speakers: [3]
+-
+  id: 013
+  title: "AI Hates Legacy Code"
+  description: |
+    AI coding agents feel like magic... right up until they collide with production code. For teams maintaining legacy systems, these agents often hallucinate APIs, run off on tangents, and shatter trust faster than an unreviewed hotfix at 5pm. Ignoring the past won't save us, because new code becomes old!
+
+    We can do better, and we will. In this session we'll go over emerging strategies for improving the accuracy of coding agents on real codebases, benchmarks such as SWE-bench that evaluate our progress, and their limitations. Expect to walk away with actionable techniques and a renewed respect for code that came before us and the challenges ahead.
+  subtype: presentation
+  speakers: [4]
